@@ -27,20 +27,20 @@
         });
 
         
-        if (!$('#ip-container').hasClass('single')) {
-            $(window).bind("scroll", function(){ //when the user is scrolling...
-                if ($(window).scrollTop() >= 100) { //header hide by scroll
-                    $('#header').addClass('overflow');
-                } else {
-                    $('#header').removeClass('overflow');
-                }
-                if ($(window).scrollTop() >= ($('#owl-main').height()/2)) { //If user scroll entire home slider
-                    $('#header').addClass('fixed');
-                } else {
-                    $('#header').removeClass('fixed');
-                }
-            });
-        }
+        // if (!$('#ip-container').hasClass('single')) {
+        //     $(window).bind("scroll", function(){ //when the user is scrolling...
+        //         if ($(window).scrollTop() >= 100) { //header hide by scroll
+        //             $('#header').addClass('overflow');
+        //         } else {
+        //             $('#header').removeClass('overflow');
+        //         }
+        //         if ($(window).scrollTop() >= ($('#owl-main').height()/2)) { //If user scroll entire home slider
+        //             $('#header').addClass('fixed');
+        //         } else {
+        //             $('#header').removeClass('fixed');
+        //         }
+        //     });
+        // }
 
         if ($(".player").length>0) { //If there are video backgrounds
             $(".player").mb_YTPlayer();
