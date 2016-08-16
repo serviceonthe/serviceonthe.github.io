@@ -28,7 +28,7 @@
 }
 
 #owl-about .item img, #owl-about2 .item img:hover{
-    background: #A15D4A;
+   /* background: #A15D4A;*/
 }
 .owl-carousel .owl-wrapper{
 	display: none;

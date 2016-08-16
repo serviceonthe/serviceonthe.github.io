@@ -312,7 +312,7 @@ a:hover {text-decoration: none;}
 	float: left;
 }
 .logo_elixir img{
-	width: 120px;
+	width: 250px;
 }
 
 #header {
@@ -321,7 +321,7 @@ a:hover {text-decoration: none;}
 	left: 0px;
 	z-index:1001;
 	width: 100%;
-	height: 90px;
+	height: 80px;
 	font-family: 'Open Sans', sans-serif;
 	background: rgba(12,12,13,0.78);
 	padding-top: 20px;
@@ -861,6 +861,8 @@ a:hover {text-decoration: none;}
 	padding-top: 66px;
 	background: #A15D4A;
 	overflow: hidden;
+	background-image: url("../images/parallax/aboutus.jpg");
+}
 }
 .section#footer {overflow: visible;}
 .section .full-width {
@@ -888,7 +890,7 @@ a:hover {text-decoration: none;}
 }
 
 .section.dark h2.section-title:before, .section.dark h2.section-title:after {
-	content:url("../images/header_decorator_dark.png");
+	/*content:url("../images/header_decorator_dark.png");*/
 	margin: 14px;
 	color: #D1BC87;
 	vertical-align: text-bottom;
@@ -1181,7 +1183,7 @@ section.timetable .column-divider{
 
 section.menu {
 	padding-bottom: 40px;
-	padding-top: 0px;
+	padding-top: 60px;
 	background-image: url("../images/menu_left.jpg"), url("../images/menu_right.jpg");
 	background-position: top left, top right;
 	background-repeat: no-repeat;
@@ -1827,7 +1829,7 @@ a.button.contact:hover, .button.contact:hover {
 	color:#eee;
 	position: relative;
 	/*height: 120px;*/
-	padding-top: 5px;
+	padding-top: 20px;
 }
 	#footer .scrollup {
 		width: 69px;
@@ -2550,7 +2552,7 @@ a.button.menu:after, .button.menu:after {
 
 	}
 	.navbar-brand.normal img {
-		width: 28%;
+		width: 60%;
 		margin-left: 10px;
 		margin-top: 5px;
 	}

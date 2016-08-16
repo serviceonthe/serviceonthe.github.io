@@ -1397,7 +1397,7 @@ select[multiple].input-lg {
 .nav > li > a {
   position: relative;
   display: inline;
-  padding: 0px 2px 0px 4px;
+  padding: 0px 2px 0px 2px;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
@@ -1713,6 +1713,7 @@ select[multiple].input-lg {
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
+  z-index: 9999;
 }
 .navbar-toggle:focus {
   outline: 0;
@@ -1768,7 +1769,7 @@ select[multiple].input-lg {
   }
   .navbar-nav > li {
     float: left;
-    padding:15px 17px 15px 16px;
+    padding:10px 10px 10px 10px;
   }
   .navbar-nav > li > a {
     padding-top: 13px;
