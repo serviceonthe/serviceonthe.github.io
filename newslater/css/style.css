@@ -1,0 +1,10 @@
+body{
+	background: #eee;
+}
+.banner{
+	width: 100%;
+	background: #fff;
+}
+.date p{
+	float: left;
+}
