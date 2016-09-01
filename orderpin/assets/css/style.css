@@ -436,19 +436,19 @@ text-transform: capitalize;
 }
 @media only screen and (max-width:768px) { 
     .slider_text h2 {
-        font-size: 40px;
+        font-size: 15px;
         letter-spacing: 1px;
     }
 }
 @media only screen and (max-width:480px) { 
     .slider_text h2 {
-        font-size: 30px;
+        font-size: 10px;
         letter-spacing: 1px;
     }
 }
 @media only screen and (max-width:320px) { 
     .slider_text h2 {
-        font-size: 24px;
+        font-size: 8px;
         letter-spacing: 1px;
     }
 }
@@ -1623,10 +1623,10 @@ text-transform: uppercase;
 }
 .box img{
     width: 100%;
-    border: 5px solid #ccc;
+    border: 5px solid #28388f;
 }
 .box img:hover{
-    border: 5px solid #333;
+    border: 5px solid #1cbac8;
 }
 
 .boxfont {
