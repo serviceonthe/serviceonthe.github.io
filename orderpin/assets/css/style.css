@@ -56,6 +56,7 @@ h6 {
     color: #161616;
     text-transform: uppercase;
 }
+
 h3 { line-height: 32px }
 a {
     text-decoration: none;
@@ -426,7 +427,7 @@ background: rgba(0,0,0,0.7) none repeat scroll 0 0;
 height:100%;
 }
 .slider_text h2 {
-color: #fff;
+color: #eee;
 font-size: 29px;
 letter-spacing: 2px;
 margin-bottom: 30px;
@@ -922,7 +923,7 @@ margin: 0;
  * ----------------------------------------------------------------------------------------
  */
 .counter_overlay {
-    padding: 100px 0;
+    padding: 60px 0;
     background: rgba(0,0,0,0.8);
 }
 .counter {
@@ -1708,3 +1709,13 @@ text-transform: uppercase;
     text-align: left;
     color: #ddd;
 }
+
+
+.footermenu iframe{
+    border-radius: 5px;
+}
+.work{
+    font-size: 16px;
+    color: #eee;
+}
+
