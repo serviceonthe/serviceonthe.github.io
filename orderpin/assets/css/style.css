@@ -35,7 +35,7 @@ Version      : 1.1
 * ----------------------------------------------------------------------------------------
 */
 body {
-    font-family: 'Cousine',sans-serif;
+    font-family:"Whitney SSm A", "Whitney SSm B", "Helvetica Neue","Helvetica","Arial", sans-serif;
     font-size: 13px;
     color: #93989B;
     overflow-x: hidden;
@@ -50,7 +50,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Montserrat",sans-serif;
+    font-family: "Helvetica Neue","Helvetica","Arial", sans-serif;
     font-weight: 400;
     margin-bottom: 20px;
     color: #161616;
@@ -64,7 +64,7 @@ a {
     transition: all 0.5s;
 }
 a {
-    font-family: "Montserrat",sans-serif;
+    font-family: "Helvetica Neue","Helvetica","Arial", sans-serif;
     text-decoration: none;
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
@@ -135,7 +135,7 @@ fieldset {
 /*END SCROLL TO TOP*/
 .no-padding { padding: 0 }
 /*END PRELOADER DESIGN*/
-.section-padding { padding: 20px 0 }
+.section-padding { padding: 20px 0 0 0 }
 /*START SECTION TITLE DESIGN*/
 .section-title { margin-bottom: 60px }
 .section-title  h2 {
@@ -1671,7 +1671,7 @@ text-transform: uppercase;
 .fotmenu ul li a{
     text-decoration: none;
     display: block;
-    padding: 10px;
+    padding: 13px;
     color: #aaa;
     font-size: 12px;
     font-weight: normal;
