@@ -395,16 +395,17 @@ p {
 }
 /*4.9 Button*/
 .btn-1{
-	color:#fff;
-	background:#da451b;
+	color:#000 !important;
+	background:#f5c86e;
 	text-transform:uppercase;
 	padding:12px 25px;
 	border-radius:0px;
 	border:none;
+	font-weight: bold;
 }
 .btn-1:hover,.btn-1:active,.btn-1:focus{
 	background:#333;
-	color:#fff;
+	color:#fff !important;
 }
 /*4.10. Form*/
 .form-item{
