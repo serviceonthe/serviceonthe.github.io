@@ -19,6 +19,9 @@
 	.about-one .features-outer{
 		background-size:400px auto;	
 	}
+	.header-mainbox .outer-box .actions-outer{
+	display: none;
+}
 	
 	.about-two,
 	.features-one{
@@ -44,7 +47,9 @@
 		top:auto;
 		bottom:180px;	
 	}
-	
+	.header-mainbox .outer-box .actions-outer{
+	display: none;
+}
 	.menu-two .left-column{
 		width:100%;
 		padding:0px 0px 0px;
@@ -77,6 +82,9 @@
 	.header-style-three .main-menu{
 		display:none;	
 	}
+	.header-mainbox .outer-box .actions-outer{
+	display: none;
+}
 	
 	.header-style-three .header-mainbox .logo-outer{
 		position:relative;
@@ -163,6 +171,10 @@
 
 @media only screen and (max-width: 1023px){
 	
+.header-mainbox .outer-box .actions-outer{
+	display: block;
+}
+
 	.header-style-one .main-menu,
 	.header-style-two .main-menu{
 		display:none;	
@@ -251,7 +263,7 @@
 }
 
 @media only screen and (max-width: 767px){
-	
+
 	.main-header .header-top .top-right{
 		display:none;	
 	}

@@ -109,7 +109,7 @@
 		jQuery('.main-slider.default-style .tp-banner').show().revolution({
 		  delay:10000,
 		  startwidth:1200,
-		  startheight:800,
+		  startheight:450,
 		  hideThumbs:600,
 	
 		  thumbWidth:80,
