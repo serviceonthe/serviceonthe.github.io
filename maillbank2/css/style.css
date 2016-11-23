@@ -7375,3 +7375,39 @@ ul,li{
     color: #fff;
 }
 
+
+  .hide_year .ui-datepicker-year{
+    display: none;
+  }
+  .hasDatepicker{
+    color: #333;
+    width: 270px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    padding: 5px 15px;
+  }
+  .timepicker1, .timepicker2{
+    width: 270px;
+    padding: 5px 15px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+  }
+  .error {
+    color: #FB3A3A;
+}
+.tbl-bor table tr td label{
+  margin-top: 0 !important;
+}
+.ui-datepicker-month, .ui-datepicker-year{
+  padding: 0 !important;
+}
+.tbl-bor{
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  #waitModal{
+    z-index: 99999;
+  }
+
