@@ -7411,3 +7411,7 @@ ul,li{
     z-index: 99999;
   }
 
+.log{
+	border-bottom: 1px solid #eee;
+	padding-bottom: 50px;
+}
