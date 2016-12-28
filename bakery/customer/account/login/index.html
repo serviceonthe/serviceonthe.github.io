@@ -1,0 +1,1241 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="ie ie8"><![endif]-->
+<!--[if IE 9]><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="ie ie9"><![endif]-->
+<!--[if !IE]>-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!-- Mirrored from nouthemes.com/magento/bakery/customer/account/login/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Dec 2016 09:04:35 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Customer Login</title>
+<meta name="description" content="Default Description" />
+<meta name="keywords" content="Magento, Varien, E-commerce" />
+<meta name="robots" content="INDEX,FOLLOW" />
+<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+<link rel="icon" href="../../../skin/frontend/bakery/default/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="../../../skin/frontend/bakery/default/favicon.ico" type="image/x-icon" />
+<!--[if IE 8 ]><html class="ie8"<![endif]-->
+<!--[if IE 9 ]><html class="ie9"><![endif]-->
+<!--[if lt IE 7]>
+<script type="text/javascript">
+//<![CDATA[
+    var BLANK_URL = 'http://nouthemes.com/magento/bakery/js/blank.html';
+    var BLANK_IMG = 'http://nouthemes.com/magento/bakery/js/spacer.gif';
+//]]>
+</script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="../../../js/bakery/owl-carousel/owl.carousel.css" />
+<link rel="stylesheet" type="text/css" href="../../../js/bakery/owl-carousel/owl.theme.css" />
+<link rel="stylesheet" type="text/css" href="../../../js/bakery/owl-carousel/effects.css" />
+<link rel="stylesheet" type="text/css" href="../../../skin/frontend/bakery/default/css/styles.css" media="all" />
+<link rel="stylesheet" type="text/css" href="../../../skin/frontend/base/default/css/widgets.css" media="all" />
+<link rel="stylesheet" type="text/css" href="../../../skin/frontend/bakery/default/css/onethemes/ajaxcart/css/ajaxcart.css" media="all" />
+<link rel="stylesheet" type="text/css" href="../../../skin/frontend/bakery/default/css/bootstrap/bootstrap.min.css" media="all" />
+<link rel="stylesheet" type="text/css" href="../../../skin/frontend/bakery/default/css/fontawesome/css/font-awesome.min.css" media="all" />
+<link rel="stylesheet" type="text/css" href="../../../skin/frontend/bakery/default/css/elegantfont/css/elegantfont.css" media="all" />
+<link rel="stylesheet" type="text/css" href="../../../skin/frontend/bakery/default/css/magiczoomplus.css" media="all" />
+<link rel="stylesheet" type="text/css" href="../../../skin/frontend/bakery/default/css/megamenu.css" media="all" />
+<link rel="stylesheet" type="text/css" href="../../../skin/frontend/bakery/default/css/accordion.css" media="all" />
+<link rel="stylesheet" type="text/css" href="../../../skin/frontend/bakery/default/css/custom.css" media="all" />
+<link rel="stylesheet" type="text/css" href="../../../skin/frontend/bakery/default/css/rtl.css" media="all" />
+<link rel="stylesheet" type="text/css" href="../../../skin/frontend/bakery/default/css/onethemes/cloudzoom/css/colorbox.css" media="all" />
+<link rel="stylesheet" type="text/css" href="../../../skin/frontend/bakery/default/css/color/design_fr.css" media="all" />
+<link rel="stylesheet" type="text/css" href="../../../skin/frontend/bakery/default/css/responsive.css" media="all" />
+<link rel="stylesheet" type="text/css" href="../../../skin/frontend/bakery/default/css/print.css" media="print" />
+<script type="text/javascript" src="../../../js/prototype/prototype.js"></script>
+<script type="text/javascript" src="../../../js/lib/ccard.js"></script>
+<script type="text/javascript" src="../../../js/prototype/validation.js"></script>
+<script type="text/javascript" src="../../../js/scriptaculous/builder.js"></script>
+<script type="text/javascript" src="../../../js/scriptaculous/effects.js"></script>
+<script type="text/javascript" src="../../../js/scriptaculous/dragdrop.js"></script>
+<script type="text/javascript" src="../../../js/scriptaculous/controls.js"></script>
+<script type="text/javascript" src="../../../js/scriptaculous/slider.js"></script>
+<script type="text/javascript" src="../../../js/varien/js.js"></script>
+<script type="text/javascript" src="../../../js/varien/form.js"></script>
+<script type="text/javascript" src="../../../js/varien/menu.js"></script>
+<script type="text/javascript" src="../../../js/mage/translate.js"></script>
+<script type="text/javascript" src="../../../js/mage/cookies.js"></script>
+<script type="text/javascript" src="../../../js/bakery/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="../../../js/bakery/compatibility.js"></script>
+<script type="text/javascript" src="../../../js/bakery/bootstrap/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../../js/bakery/bootstrap/bootstrap-tooltip.js"></script>
+<script type="text/javascript" src="../../../js/bakery/bootstrap/collapse.js"></script>
+<script type="text/javascript" src="../../../js/bakery/bootstrap/dropdown.js"></script>
+<script type="text/javascript" src="../../../js/bakery/jquery.lib.min.js"></script>
+<script type="text/javascript" src="../../../js/bakery/jquery.elevateZoom-2.5.3.min.js"></script>
+<script type="text/javascript" src="../../../js/bakery/jquery.ajaxcart.js"></script>
+<script type="text/javascript" src="../../../js/bakery/jquery.cookie.js"></script>
+<script type="text/javascript" src="../../../js/mage/captcha.js"></script>
+<link href="../../../blog/rss/index/store_id/2/index.html" title="Blog" rel="alternate" type="application/rss+xml" />
+<!--[if lt IE 8]>
+<link rel="stylesheet" type="text/css" href="http://nouthemes.com/magento/bakery/skin/frontend/bakery/default/css/styles-ie.css" media="all" />
+<![endif]-->
+<!--[if lt IE 7]>
+<script type="text/javascript" src="http://nouthemes.com/magento/bakery/js/lib/ds-sleight.js"></script>
+<script type="text/javascript" src="http://nouthemes.com/magento/bakery/js/bakery/elegantfont/lte-ie7.js"></script>
+<script type="text/javascript" src="http://nouthemes.com/magento/bakery/skin/frontend/base/default/js/ie6.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+<script type="text/javascript" src="http://nouthemes.com/magento/bakery/js/bakery/bootstrap/html5shiv.js"></script>
+<script type="text/javascript" src="http://nouthemes.com/magento/bakery/js/bakery/bootstrap/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript">
+    var oneThemes = {};
+    oneThemes.responsive = true;
+        oneThemes.maxBreak = 1170;
+    </script>
+<script type="text/javascript">
+//<![CDATA[
+Mage.Cookies.path     = '/magento/bakery';
+Mage.Cookies.domain   = '.nouthemes.com';
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+optionalZipCountries = ["HK","IE","MO","PA"];
+//]]>
+</script>
+<script type="text/javascript">
+    var ONE = ONE || {};
+    ONE.FORM_KEY = 'itLTOmvw1q8rp3Ua';
+
+    function setLocationWidget(url){
+        if (url.indexOf('form_key/index.html') !== -1){
+            var part = url.split('form_key/index.html')[1],
+                formKey = part.split('http://nouthemes.com/')[0];
+
+            if (!formKey) return;
+
+            var newUrl = url.replace(formKey, ONE.FORM_KEY || '');
+
+            if (setLocation) setLocation(newUrl);
+            else window.location.href = newUrl;
+        }
+    }
+</script>
+<script type="text/javascript">//<![CDATA[
+        var Translator = new Translate([]);
+        //]]></script>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sansamp;subset=latin' rel='stylesheet' type='text/css' />
+
+
+</head>
+<body class="   customer-account-login">
+<section class="one-container container">
+    <!-- navigation BOF -->
+
+<div class="one-menu one-effect-slide">
+    <div class="one-menu-active">
+			<div class="navbar-header">
+				<div class="navbar-toggle" type="button" data-toggle="collapse">
+					
+					<button type="button" class="one-close-canvas"></button>
+				</div>
+			</div>
+	</div>
+    <div class="sidebar">
+        <ul id="one_accordionmenu" class="nav-accordion nav-mobile-accordion">
+            <li><a href="../../../index.html">Home</a></li>
+            <li class="level0 nav-1 level-top first">
+<a href="../../../menu.html" class="level-top">
+<span>menu</span>
+</a>
+</li><li class="level0 nav-2 level-top last parent">
+
+<a href="../../../features.html" class="level-top">
+<span>features</span>
+</a>
+<ul class="level0">
+<li class="level1 item nav-2-1 first parent">
+<a href="../../../features/gallery-single.html">
+<span>Gallery Single</span>
+</a>
+<ul class="level1">
+<li class="level2 nav-2-1-1 first">
+<a href="../../../features/gallery-single/chef-s-hat.html">
+<span>Chef’s Hat</span>
+</a>
+</li><li class="level2 nav-2-1-2">
+<a href="../../../features/gallery-single/cakes-for-weddings.html">
+<span>Cakes for weddings</span>
+</a>
+</li><li class="level2 nav-2-1-3 last">
+<a href="../../../features/gallery-single/lots-of-bread.html">
+<span>Lots of bread</span>
+</a>
+</li>
+</ul>
+</li><li class="level1 item nav-2-2 last parent">
+<a href="../../../features/services.html">
+<span>Services</span>
+</a>
+<ul class="level1">
+<li class="level2 nav-2-2-4 first">
+<a href="../../../features/services/chef-s-hat.html">
+<span>Chef’s Hat</span>
+</a>
+</li><li class="level2 nav-2-2-5">
+<a href="../../../features/services/cakes-for-weddings.html">
+<span>Cakes for weddings</span>
+</a>
+</li><li class="level2 nav-2-2-6 last">
+<a href="../../../features/services/lots-of-bread.html">
+<span>Lots of bread</span>
+</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>             
+
+                        <li class="level0 level-top parent custom-block  menu-item-right">
+                            <a href="../../../about-magento-demo-store.html" class="level-top">
+                                <span>About Us</span>
+                            </a> 
+                        </li> 
+                                                <li class="level0 level-top">
+                    <a href="../../../blog/index.html" class="level-top">
+                        blog                    </a>
+                </li> 
+                        <li class="level0 level-top">
+                <a href="../../../contacts/index.html" class="level-top">
+                    contact                </a>
+            </li> 
+        </ul>
+        <script type="text/javascript">
+            $one(document).ready(function() {
+                $one("#one_accordionmenu").oneAccordionMenu({
+                    accordion:true,
+                    speed: 400,
+                    closedSign: 'collapse',
+                    openedSign: 'expand',
+                    mouseType: 0,
+                    easing: 'easeInOutQuad'
+                });
+            });
+        </script>
+    </div>
+</div>
+<div class="site-overlay"></div>
+    <section class="one-wrapper">
+        
+        <div class="header-cart" style="display:none">
+    <div class="container">
+        <h3>my cart</h3>
+        <div class="icon-close"><i class="fa fa-times"></i></div>
+        <div class="edit-account long-box-shadow">
+<div class="page-title">
+    <h2>Shopping Cart is Empty</h2>
+</div>
+<div class="cart-empty ">
+            <p>You have no items in your shopping cart.</p>
+    <p>Click <a href="../../../index.html">here</a> to continue shopping.</p>
+    </div>
+</div>
+      
+    </div>
+</div>
+<header class="header-container">
+    <div class="header">
+        <div class="header-top">
+            <div class="header-top-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="header-top-left col-lg-3 col-md-4 col-sm-12 col-xs-12 v-grid">
+                            <div class="header-talet">
+                                
+<div class="form-language">
+   
+    <!--select id="select-language" title="" onchange="window.location.href=this.value"-->
+                    <a style="background: url('../../../media/wysiwyg/onethemes/languages/English.png') no-repeat;font-size: 0; padding: 10px 11px;"
+        	class="language_default" href="index3214.html?___store=default">
+        <span>English</span></a>
+
+                    <a style="background: url('../../../media/wysiwyg/onethemes/languages/france.png') no-repeat;font-size: 0; padding: 10px 11px;"
+        	class="language_fr" href="index8992.html?___store=fr">
+        <span>france</span></a>
+
+        <!--/select-->
+</div>
+                                <div class="currency_top"></div>
+                                <!--<p class="welcome-msg">Default welcome msg! </p>-->
+                            </div>
+                        </div>
+                        <div class="header-top-right col-lg-9 col-md-8 col-sm-12 col-xs-12 v-grid">
+                            <div class="one-top-cart ">
+                                <div class="one-maincart">
+                                            <span class="one-cart-loading">Loading...</span>
+        <div class="one-cart">
+            <div class="one-icon-ajaxcart">
+                <a class="one-cart-label" href="../../../checkout/cart/index.html">
+                        <span class="print" style="clear:both;display: block;">
+                           <span class="items">TOTAL:</span>
+                            <span class="price">$0.00</span>                        </span>
+                </a>
+                                        <p class="empty"><span>0</span></p>
+                            </div>
+            <div class="ajaxcart">
+                <div class="search-form-border"></div>
+                <div class="one-ajax-container">
+                                            <p class="no-items-in-cart">You have no items in your shopping cart.</p>
+                                    </div>
+            </div>
+        </div>
+<script type="text/javascript">
+    var datatext = {};
+    datatext.load = 'processing';
+
+$one(function($) {
+    $('.header-container .one-maincart .summary').click(function(){
+        $('body').find('.header-cart').addClass('cart-active').stop().delay(200).slideDown();
+    });
+    $('.header-container .one-maincart .empty').click(function(){
+            $('body').find('.header-cart').addClass('cart-active').stop().delay(200).slideDown();
+        });
+
+    $('.header-cart .icon-close').click(function(){
+            $('body').find('.header-cart').removeClass('cart-active').stop().delay(200).slideUp();
+        }); 
+});
+</script>                                </div>
+                                <div id="notification"></div>
+                            </div>                         
+                            <div class="header-setting">
+                                                                         <ul class="links">
+                        <li class="first" ><a href="../index.html" title="My Account" >My Account</a></li>
+                    		                                             <li ><a href="../../../wishlist/index.html" title="My Wishlist" class="top-link-wishlist">My Wishlist</a></li>
+                                <li ><a href="../../../checkout/index.html" title="Checkout" class="top-link-checkout">Checkout</a></li>
+                                <li class=" last" ><a href="index.html" title="Log In" >Log In</a></li>
+            </ul>
+ 
+<script> 
+	//$one(function(){
+	//	iconFontAwesome(); 
+	///});
+</script>
+
+
+                                                              </div> 
+               
+                            <div class="header-right-inner clearfix">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-content">
+            <div class="container">
+                <div class="header-inner">
+                    <div class="header-act row">
+                        <div class="header-content-left col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                           
+                            <div class="logo ">
+                                                                    <a href="../../../index.html" title="Magento Commerce" class="logo"><strong>Magento Commerce</strong>
+                                        <img src="../../../media/wysiwyg/onethemes/bakery/logo/logo.png" alt="Magento Commerce" />
+                                    </a>
+                                                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-top">
+            <div class="container">
+                <div class="row">
+                    <div class="header-content-right col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="menu-search">
+                            <div class="navbar col-lg-12 visible-xs canvas">
+                                <div class="navbar navbar-inverse">
+                                    <div class="container-ner">
+                                        <div class="navbar-header">
+                                            <div class="navbar-toggle" type="button" data-toggle="collapse">
+                                                <div class="collapsed-icon">
+                                                    <!--<span class="sr-only"></span>-->
+                                                    <span class="icon-bar"></span>
+                                                    <span class="icon-bar"></span>
+                                                    <span class="icon-bar"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <div class="menutop">
+                           <div class="menu-full" id="one-sticky-header">
+                                <div class="header-menu">
+                                    <div class="nav-top v-grid ">
+                                        <div class="container">
+                                            <div class="nav-top-inner long-box-shadow ">
+                                                
+<!-- navigation BOF -->
+
+ 
+
+<!--<div class="navbar visible-xs">
+
+    <div class="navbar navbar-inverse">
+
+        <div class="container">
+
+            <div class="navbar-header">
+
+                <div class="navbar-toggle" type="button" data-toggle="collapse">
+
+                    <span class="sr-only"></span>
+
+                    <span class="icon-bar"></span>
+
+                    <span class="icon-bar"></span>
+
+                    <span class="icon-bar"></span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>-->
+
+
+<div class="one-navigation hidden-xs">
+
+    
+	<div class="logo-sticky" style="display: none;">
+
+        <a href="../../../index.html">
+
+            <img class="img-sticky" src="../../../skin/frontend/bakery/default/images/logo.png" alt="Magento Commerce" />
+
+        </a>
+
+    </div>
+
+	<div class="one-main-menu">
+
+		<ul id="onenav" class="megamenu">
+
+			
+			<li class="level0 home level-top  active m-dropdown parent">
+
+				<a href="../../../index.html" class="level-top"><span>Home</span></a>
+
+			</li> 
+
+			
+			<li class="level0 nav-1 level-top first">
+<a href="../../../menu.html" class="level-top">
+<span>menu</span>
+</a>
+</li><li class="level0 nav-2 level-top last parent parent-sub">
+<i class="fa fa-caret-right "></i>
+<a href="../../../features.html" class="level-top">
+<span>features</span>
+</a>
+<div class="level0 sub-wrapper shown-sub" style="display:none; height:auto;">
+<div class="mm-item-base clearfix">
+<div class="onemenu-block onemenu-block-center menu-items grid12-12 itemgrid itemgrid-2col">
+<ul class="level0">
+<li class="level1 groups item nav-2-1 first">
+<a href="../../../features/gallery-single.html">
+<span class="title_group">Gallery Single</span>
+</a>
+<div class="groups-wrapper">
+<ul class="level1">
+<li class="level2 nav-2-1-1 first">
+<a href="../../../features/gallery-single/chef-s-hat.html">
+<span>Chef’s Hat</span>
+</a>
+</li><li class="level2 nav-2-1-2">
+<a href="../../../features/gallery-single/cakes-for-weddings.html">
+<span>Cakes for weddings</span>
+</a>
+</li><li class="level2 nav-2-1-3 last">
+<a href="../../../features/gallery-single/lots-of-bread.html">
+<span>Lots of bread</span>
+</a>
+</li>
+</ul>
+</div>
+</li><li class="level1 groups item nav-2-2 last">
+<a href="../../../features/services.html">
+<span class="title_group">Services</span>
+</a>
+<div class="groups-wrapper">
+<ul class="level1">
+<li class="level2 nav-2-2-4 first">
+<a href="../../../features/services/chef-s-hat.html">
+<span>Chef’s Hat</span>
+</a>
+</li><li class="level2 nav-2-2-5">
+<a href="../../../features/services/cakes-for-weddings.html">
+<span>Cakes for weddings</span>
+</a>
+</li><li class="level2 nav-2-2-6 last">
+<a href="../../../features/services/lots-of-bread.html">
+<span>Lots of bread</span>
+</a>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</li> 
+
+					<li class="level0 level-top parent custom-block  menu-item-right">
+
+						<a href="../../../about-magento-demo-store.html" class="level-top">
+
+							<span>About Us</span>
+
+						</a> 
+
+					</li> 
+
+											<li class="level0 level-top">
+					<a href="../../../blog/index.html" class="level-top">
+						blog					</a>
+				</li> 
+						<li class="level0 level-top">
+				<a href="../../../contacts/index.html" class="level-top">
+					contact				</a>
+			</li> 
+		</ul>
+
+	</div>
+
+</div>
+
+<script type="text/javascript">
+
+    $one(function(){
+
+        $one(".megamenu").megamenu({
+
+            'animation':'slide',
+
+            'mm_timeout': 150
+
+	    });
+
+    });
+
+</script>
+
+
+<!-- navigation EOF -->                                               
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="seach">
+                                <div class="icon"><i class="fa fa-search"></i></div>
+                                <div class="form" style="display:none">
+                                    <form id="search_mini_form" action="http://nouthemes.com/magento/bakery/catalogsearch/result/" method="get">
+    <div class="form-search">
+        <!--<label for="search"></label>-->
+        <button type="submit" title="Search" class="button">
+		    <span>
+			   <span><i class="fa fa-search"></i>&nbsp;</span>
+			 </span>
+        </button>
+
+        <input id="search" type="text" name="q" value="" class="input-text" maxlength="128" />
+
+        <div id="search_autocomplete" class="search-autocomplete"></div>
+        <script type="text/javascript">
+        //<![CDATA[
+            var searchForm = new Varien.searchForm('search_mini_form', 'search', 'Search...');
+            searchForm.initAutocomplete('../../../catalogsearch/ajax/suggest/index.html', 'search_autocomplete');
+        //]]>
+        </script>
+    </div>
+</form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+            <script type="text/javascript">
+            $one(window).load(function(){
+                $one("#one-sticky-header").sticky({ topSpacing: 0 });
+                var $logoImg = $one('.one-wrapper .header .logo img');
+                if($logoImg.css('min-height') == '1px') {
+                    $logoImg.attr('src', $logoImg.attr('src').replace('logo.html', ''));
+                }
+            });
+        </script>
+    </header>
+            <noscript>
+        <div class="global-site-notice noscript">
+            <div class="notice-inner">
+                <p>
+                    <strong>JavaScript seems to be disabled in your browser.</strong><br />
+                    You must have JavaScript enabled in your browser to utilize the functionality of this website.                </p>
+            </div>
+        </div>
+    </noscript>
+        <section class="main-container col1-layout">
+            
+            <div class="main-breadcrumbs">
+                <div class="container">
+                    <div class="main">
+                        <div class="long-box-shadow col-md-12 col-sm-12 col-xs-12">
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+
+			<div class="main-top">
+                <div class="container">
+                    <div class="main">
+                        <div class="main-inner main-top-inner">
+                            <div class="show-grid">
+                                                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        <div class="main-center">
+                <div class="container">
+                    <div class="clearfix">
+                                              </div>
+                </div>
+            </div>
+            <div class="container-main">
+                <div class="main-content container">
+                    <div class="main">
+                        <div class="main-inner main-content-inner">
+                            <div class="show-grid">
+                                <div class="col-main">
+                                                                        <div class="account-login">
+    <div class="page-title">
+        <h1>Login or Create an Account</h1>
+    </div>
+        <form action="http://nouthemes.com/magento/bakery/customer/account/loginPost/" method="post" id="login-form">
+	<input name="form_key" type="hidden" value="itLTOmvw1q8rp3Ua" />
+        <div class="col2-set long-box-shadow">
+            <div class="col-1 new-users">
+                <div class="content">
+                    <h2>New Customers</h2>
+                    <p>By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.</p>
+                </div>
+				<div class="buttons-set">
+                    <button type="button" title="Create an Account" class="button" onclick="window.location='../create/index.html';"><span><span>Create an Account</span></span></button>
+                </div>
+            </div>
+        </div>
+        <div class="col2-set2 long-box-shadow">
+			<div class="col-2 registered-users">
+                <div class="content">
+                    <h2>Registered Customers</h2>
+                    <p>If you have an account with us, please log in.</p>
+                    <ul class="form-list">
+                        <li>
+                            <label for="email" class="required"><em>*</em>Email Address</label>
+                            <div class="input-box">
+								<i class="fa fa-user"></i>
+                                <input type="text" name="login[username]" value="" id="email" class="input-text required-entry validate-email" title="Email Address" />
+                            </div>
+                        </li>
+                        <li>
+                            <label for="pass" class="required"><em>*</em>Password</label>
+                            <div class="input-box">
+								<i class="fa fa-unlock-alt"></i>
+                                <input type="password" name="login[password]" class="input-text required-entry validate-password" id="pass" title="Password" />
+                            </div>
+                        </li>
+                                                                    </ul>
+                    <div id="window-overlay" class="window-overlay" style="display:none;"></div>
+<div id="remember-me-popup" class="remember-me-popup" style="display:none;">
+    <div class="remember-me-popup-head">
+        <h3>What's this?</h3>
+        <a href="#" class="remember-me-popup-close" title="Close">Close</a>
+    </div>
+    <div class="remember-me-popup-body">
+        <p>Checking &quot;Remember Me&quot; will let you access your shopping cart on this computer when you are logged out</p>
+        <div class="remember-me-popup-close-button a-right">
+            <a href="#" class="remember-me-popup-close button" title="Close"><span>Close</span></a>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+//<![CDATA[
+    function toggleRememberMepopup(event){
+        if($('remember-me-popup')){
+            var viewportHeight = document.viewport.getHeight(),
+                docHeight      = $$('body')[0].getHeight(),
+                height         = docHeight > viewportHeight ? docHeight : viewportHeight;
+            $('remember-me-popup').toggle();
+            $('window-overlay').setStyle({ height: height + 'px' }).toggle();
+        }
+        Event.stop(event);
+    }
+
+    document.observe("dom:loaded", function() {
+        new Insertion.Bottom($$('body')[0], $('window-overlay'));
+        new Insertion.Bottom($$('body')[0], $('remember-me-popup'));
+
+        $$('.remember-me-popup-close').each(function(element){
+            Event.observe(element, 'click', toggleRememberMepopup);
+        })
+        $$('#remember-me-box a').each(function(element) {
+            Event.observe(element, 'click', toggleRememberMepopup);
+        });
+    });
+//]]>
+</script>
+                    <p class="required">* Required Fields</p>
+                </div>
+				<div class="buttons-set">
+                    <a href="../forgotpassword/index.html" class="f-left">Forgot Your Password?</a>
+                    <button type="submit" class="button" title="Login" name="send" id="send2"><span><span>Login</span></span></button>
+                </div>
+            </div>
+        </div>
+            </form>
+    <script type="text/javascript">
+    //<![CDATA[
+        var dataForm = new VarienForm('login-form', true);
+    //]]>
+    </script>
+</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <div class="main-blog-image">
+                <div class="container">
+                    <div class="clearfix">
+                                              </div>
+                </div>
+            </div>
+             <div class="team_member">
+                    <div class="container">
+                        <div class="clearfix">
+                                                      </div>
+                    </div>
+                </div>
+                                        <div class="main-bottom">
+                    <div class="container">
+                        <div class="clearfix">
+                                                      </div>
+                    </div>
+                </div>
+                                    <div class="main-logobrand">
+                <div class="container">
+                    <div class="clearfix">
+                                              </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer-container">
+   
+        <div class="footer-inner long-box-shadow">
+            <div class="footer-top">
+                <div class="container">
+                    
+<div class="block ">
+    	 <div class=" block-static">
+					<div class="col-lg-4  col-md-4  col-sm-4  col-xs-12  ">
+				<h4>About</h4>
+<p>Bakery is a PSD Template with great options and a lot of features. But it may possibly be conceived that, in the internal parts of the whale, in his anatomy there, at least, we shall be able to hit.</p>
+<div class="margin-50">&nbsp;</div>			</div>
+					<div class="col-lg-4  col-md-4  col-sm-4  col-xs-12  ">
+				<p class="logo-footer"><img src="../../../media/wysiwyg/onethemes/bakery/blog/logo2.png" alt="" /></p>
+<div class="margin-50">&nbsp;</div>			</div>
+					<div class="col-lg-4  col-md-4  col-sm-4  col-xs-12  ">
+				<div class="subscribe"><div class="subscribe footer-static main-heading">
+    <h3><span>Newsletter</span></h3>
+    <form action="http://nouthemes.com/magento/bakery/newsletter/subscriber/new/" method="post" id="newsletter-validate-detail">
+        <div class="block-content">
+            <div class="form-subscribe-header">
+                <p>Give us your email, and we shall send regular updates for new stuff and events.</p>
+            </div>
+            <div class="input-box">
+                   <input name="email" type="text" id="newsletter" value="" onclick="this.value==''?this.value='':''" onblur="this.value==''?this.value='':''"  class="input-text required-entry validate-email" />
+
+                <div class="actions">
+                    <button type="submit" title="Subscribe" class="button"><span><span>Subscribe</span></span></button>
+                </div>
+            </div>
+        </div>
+    </form>
+    <script type="text/javascript">
+    //<![CDATA[
+        var newsletterSubscriberFormDetail = new VarienForm('newsletter-validate-detail');
+    //]]>
+    </script>
+</div>
+</div>
+<div class="margin-50">&nbsp;</div>			</div>
+			</div>
+</div>
+
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    <div class="footer">
+                        <div class="row">    
+                            
+<div class="block ">
+    	 <div class=" block-static">
+					<div class="col-lg-3  col-md-3  col-sm-3  col-xs-12  ">
+				<div class="footer-column">
+<h4>Working Time</h4>
+<p>Monday Friday:<span class="highlight">08:00 am - 08:30 pm</span> <br /> Saturday Sunday:<span class="highlight">10:00 am - 16:30 pm</span></p>
+</div>			</div>
+					<div class="col-lg-3  col-md-3  col-sm-3  col-xs-12  ">
+				<div class="footer-column">
+<h4>Happy Hours</h4>
+<p>Join us for Happy Hour! <br /> Enjoy discount baked goods. <br /> <span class="highlight">8:00 pm-5:00 pm Daily</span></p>
+</div>			</div>
+					<div class="col-lg-3  col-md-3  col-sm-3  col-xs-12  ">
+				<div  class=" footer-column">
+                                    <h4>Follow Us</h4>
+                                    <div class="social-icon-container">
+                                        <a href="#"><i class="fa fa-facebook">&nbsp;</i></a>
+                                    </div>
+                                    <div class="social-icon-container">
+                                        <a href="#"><i class="fa fa-twitter">&nbsp;</i></a>
+                                    </div>
+                                    <div class="social-icon-container">
+                                        <a href="#"><i class="fa fa-rss">&nbsp;</i></a>
+                                    </div>
+                                    <div class="social-icon-container">
+                                        <a href="#"><i class="fa fa-pinterest">&nbsp;</i></a>
+                                    </div>
+                                    <div class="social-icon-container">
+                                        <a href="#"><i class="fa fa-linkedin">&nbsp;</i></a>
+                                    </div>
+</div>			</div>
+					<div class="col-lg-3  col-md-3  col-sm-3  col-xs-12  ">
+				<div  class="footer-column">
+                                    <h4>Contact Us</h4>
+                                    <div class="icon-opening-wrapper">
+                                        <div class="icon-opening-container">
+                                            <p class="icon-opening"><i class="fa fa-phone"></i></p>
+                                            <p class="icon-opening-content">0 800 123 456 88</p>
+                                        </div>
+                                    </div>
+                                    <div class="icon-opening-wrapper">
+                                        <div class="icon-opening-container">
+                                            <p class="icon-opening"><i class="fa fa-location-arrow"></i></p>
+                                            <p class="icon-opening-content">257 Charlington Gates<br>
+                                            Road Morrison, Nr. 568</p>
+                                        </div>
+                                    </div>
+                                    <div class="icon-opening-wrapper">
+                                        <div class="icon-opening-container">
+                                            <p class="icon-opening"><i class="fa fa-envelope"></i></p>
+                                            <p class="icon-opening-content">info@bakeytemplate.com</p>
+                                        </div>
+                                    </div>
+                                    <div class="icon-opening-wrapper">
+                                        <div class="icon-opening-container">
+                                            <p class="icon-opening"><i class="fa fa-globe"></i></p>
+                                            <p class="icon-opening-content">www.bakeytemplate.com</p>
+                                        </div>
+                                    </div>
+                                    <div class="margin-40"></div>
+                                </div>			</div>
+			</div>
+</div>
+
+                        </div>
+                    </div>
+                     <div class="copyright">
+                        <div class="row">    
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <address>&copy; 2015 All rights reserved, Powered by IgnitionThemes</address>
+                            </div>
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+   
+	<div id="back-top" class="hidden-phone">
+		<a href="#top">
+		<div class="backtop">
+			<div class="sticker" title="Back to Top"></div>
+		</div>
+		</a>
+	</div>
+</footer>
+        <script type="text/javascript">
+        function setGridItemsEqualHeight($)
+    {
+        var winWidth = $(window).width();
+        var SPACING = 0;
+        if (winWidth >= 480)
+        {
+            $('.show-grid').removeClass("auto-height");
+            var gridItemMaxHeight = 0;
+            $('.show-grid > .item').each(function() {
+                $(this).css("height", "auto");
+                                gridItemMaxHeight = Math.max(gridItemMaxHeight, $(this).height());
+            });
+            $('.show-grid > .item').css("height", gridItemMaxHeight + "px");
+        }
+        else
+        {
+            $('.show-grid').addClass("auto-height");
+            $('.show-grid > .item').css("height", "auto");
+            $('.show-grid > .item').css("padding-bottom", "20px");
+        }
+    }
+        function setGridItem($){
+        var winWidth = $(window).width();
+        var col = 3;
+        if(winWidth > 768){
+            newcol = col;
+        }
+        if(winWidth < 768 && winWidth >=640){
+            newcol = 3;
+        }
+        if(winWidth >=480 && winWidth <640){
+            newcol = 2;
+        }
+        if(winWidth < 480){
+            newcol = 2;
+        }
+        $i = 0;
+        $('.show-grid > .item').each(function() {
+            $i++;
+            $(this).removeClass('first');
+            $(this).removeClass('last');
+            if(($i-1)%newcol==0){
+                $(this).addClass('first');
+            }else if($i%newcol==0){
+                $(this).addClass('last');
+            }
+        });
+    }
+    $one(function($) {
+        var winWidth = $(window).width();
+        var winHeight = $(window).height();
+        var windowResize_t;
+        $(window).resize(function() {
+            var winNewWidth = $(window).width();
+            var winNewHeight = $(window).height();
+            if (winWidth != winNewWidth || winHeight != winNewHeight)
+            {
+                clearTimeout(windowResize_t);
+                windowResize_t = setTimeout(function() {
+                    $(document).trigger("themeResize");
+                                        setGridItemsEqualHeight($);
+                                        setGridItem($);
+                }, 200);
+            }
+            winWidth = winNewWidth;
+            winHeight = winNewHeight;
+        });
+                $('.one-maincompare').hover(
+            function () {
+                $(this).addClass('compare-active').find('.oneajaxcompare').stop().delay(200).slideDown();
+            },
+            function () {
+                $(this).removeClass('compare-active').find('.oneajaxcompare').stop().delay(200).slideUp();
+            }
+        );
+         
+          $('.all-category').hover(
+            function () {
+                $(this).addClass('setting-bi-active').find('.one-main-menu-vertical').stop().delay(200).slideDown();
+            },
+            function () {
+                $(this).removeClass('setting-bi-active').find('.one-main-menu-vertical').stop().delay(200).slideUp();
+            }
+        );
+        $("#select-language").selectbox();
+        $("#select-currency").selectbox();
+        //lazyload
+        $("img.lazy").lazy({
+            effect : "fadeIn",
+            effectTime: 800,
+            threshold: 50, 
+            afterLoad: function(element) {
+                                setGridItemsEqualHeight($);
+                            }
+        });
+
+        //Back to top
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                $('#back-top').fadeIn();
+            } else {
+                $('#back-top').fadeOut();
+            }
+        });
+        $('#back-top a').click(function () {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+        });
+        //Cart header
+        $('.header-container .one-maincart .summary').click(function(){
+                $('body').find('.header-cart').addClass('cart-active').stop().delay(200).slideDown();
+            });
+        $('.header-container .one-maincart .empty').click(function(){
+                $('body').find('.header-cart').addClass('cart-active').stop().delay(200).slideDown();
+            });
+    
+        $('.header-cart .icon-close').click(function(){
+                $('body').find('.header-cart').removeClass('cart-active').stop().delay(200).slideUp();
+            }); 
+           
+       
+
+
+
+    jQuery('#zo2-top-wrap .icon-search').click(function(){
+        jQuery('.search .search-form').fadeIn('300');
+        jQuery('#zo2-top-wrap .search .search-form .inputbox').focus().css("color","#000");
+    });
+        jQuery('#zo2-top-wrap .search-close').click(function(){
+        jQuery('.search .search-form').fadeOut('300');
+    });
+
+
+        $('.header-content-right .seach').hover(
+            function () {
+                $(this).addClass('active').find('.form').stop().delay(200).slideDown();
+            },
+            function () {
+                $(this).removeClass('active').find('.form').stop().delay(200).slideUp();
+            }
+        );
+        //Quickview
+        $('.product-quickview').live('click', function() {
+            $.colorbox({
+                iframe: true,
+                href:this.href,
+                opacity:    0.5,
+                speed:      300,
+                current:    '{current} / {total}',
+                close:      "close",
+                innerWidth:'780px',
+                innerHeight:'650px',
+                onOpen: function(){
+                    $('#cboxLoadingGraphic').addClass('box-loading');
+                },
+                onComplete: function(){
+                    setTimeout(function(){
+                        $('#cboxLoadingGraphic').removeClass('box-loading');
+                    },1300);
+                }
+            });
+        });
+
+        $('.show-quickview').live('click', function(e){
+            if($('.btn-cart-mobile').length == 0){
+                $(this).next().trigger('click');
+            }else{
+                return window.location.href=$(this).attr('data-submit');
+            }
+        });
+    });
+    $one(window).load(function(){
+                setGridItemsEqualHeight($one);
+                setGridItem($one);
+    });
+    // JavaScript Document
+    $one(window).load(function(){
+        $one(".one-tooltip").tooltip();
+        var selectToggle = '<i class="fa fa-sort-down"></i>';
+        var flextPrev = '<i class="fa fa-angle-left"></i>',
+            iconMenu = '<i class="fa fa-angle-down"></i>',
+            revoNext = '<i class="fa fa-arrow-right"></i>',
+            revoPrev = '<i class="fa fa-arrow-left"></i>',
+            revoBullet = '<i class="fa fa-circle"></i>',
+            flextNext = '<i class="fa fa-angle-right"></i>';
+
+        $one(".flex-direction-nav a").empty();
+        $one(".flex-direction-nav a.flex-prev").append(flextPrev);
+        $one(".flex-direction-nav a.flex-next").append(flextNext);
+        //$one(".level0.sub-wrapper").prev('.level-top').append(iconMenu);
+        $one(".tp-leftarrow.default").append(revoPrev);
+        $one(".tp-rightarrow.default").append(revoNext);
+        $one(".tp-bullets .bullet").append(revoBullet);
+        $one(".sbToggle").append(selectToggle);
+    });
+    //function iconFontAwesome() {
+        //add font icon awesome
+
+      //  $one(".links li a").append("<i></i>");
+       // $one(".links li.first i").addClass("fa fa-user");
+       // $one(".links li a.top-link-wishlist i").addClass("fa fa-heart-o");
+      //  $one(".links li a.top-link-checkout i").addClass("fa fa-check");
+      //  $one(".links li.last i").addClass("fa fa-unlock-alt");
+
+
+    //}
+    
+    $one(".accordion-footer").addClass("accordion-show");
+        $one(".accordion-footer").click(function(){
+            if($one(this).parent().next().is(":visible")){
+                $one(this).addClass("accordion-show");
+            }else{
+                $one(this).removeClass("accordion-show");
+            }
+            $one(this).parent().next().toggle(400);
+        });
+</script> 
+<script type="text/javascript">
+	(function($){
+		
+		$('.block-wishlist #wishlist-sidebar a').live('click', function(){ 
+			if (confirm($(this).attr('data-confirm'))) {
+				removetowishlist($(this));
+			} 
+			return false;
+		});
+		$('.add-to-links a.link-wishlist').live('click', function(){ 
+			addtowishlist($(this));
+			return false;
+		});   
+		if($('.product-view').length>0){
+			productAddToCartForm.submitLight = function(button, url){
+				return false; 
+			}.bind(productAddToCartForm);
+		}
+				
+		$('.add-to-links a.link-compare').live('click', function(){ 
+			addtocompare($(this)); 
+			return false;
+		});
+		$('.block-compare #compare-items a, .block-top-compare a.btn-remove').live('click', function(){ 
+			if (confirm($(this).attr('data-confirm'))) {
+				removecompare($(this));
+			} 
+			return false;
+		});
+        $('.block-compare .clearall a, .block-compare .actions a, .block-top-compare .clearall a').live('click', function(){
+			if (confirm($(this).attr('data-confirm'))) {
+				clearallcompare($(this));
+			} 
+			return false;
+		}); 
+			})($one);
+</script>
+
+    <div style="display: none">
+            <style type="text/css">
+                #cboxContent.newsletterbox{
+                                            background-image: url(../../../media/wysiwyg/onethemes/newsletter/default/bg_devices.jpg);
+                                        background-position: center center;
+                    background-repeat: no-repeat;
+                    background-color: #ffffff;
+                }
+            </style>
+        <div id="one_newsletter" class="block block-subscribe">
+            <div class="block-title">
+                <strong><span>Newsletter</span></strong>
+            </div>
+            <div class="intro">
+                 <p>Enter your email address to Get 15% off</p>            </div>
+            <form action="http://nouthemes.com/magento/bakery/newsletter/subscriber/new/" method="post" id="one-newsletter-validate-detail">
+                <div class="block-content">
+                    <div class="input-box">
+                        <input name="email" type="text" id="one-newsletter" value="Enter your email address" onclick="this.value=='Enter your email address'?this.value='':''" onblur="this.value==''?this.value='Enter your email address':''"  class="input-text required-entry validate-email" />
+                        <div class="actions">
+                            <button type="submit" title="Subscribe" class="button"><span><span>Subscribe</span></span></button>
+                        </div>
+                    </div>
+                    <label class="subcriper_label">
+                        <input type="checkbox">
+                        Don’t show this popup again                    </label>
+                </div>
+            </form>
+            <script type="text/javascript">
+                //<![CDATA[
+                var oneNewsletterSubscriberFormDetail = new VarienForm('one-newsletter-validate-detail');
+                $one(function($){
+                    isSuccess = $('ul.messages li.success-msg').length;
+                    subscribeFlag = $.cookie('oneNewsletterSubscribeFlag');
+                    function subsSetcookie(){
+                        $.cookie('oneNewsletterSubscribe', 'true', {
+                            expires: 30,
+                            path: '/'
+                        });
+                    }
+                    $('#one_newsletter .subcriper_label input').on('click', function(){
+                        if($(this).parent().find('input:checked').length){
+                            subsSetcookie();
+                        } else {
+                            $.removeCookie('oneNewsletterSubscribe', { path: '/' });
+                        }
+                    });
+                    $('#one_newsletter .input-box button.button').on('click', function(){
+                        var button = $(this);
+                        setTimeout(function(){
+                            if(!button.parent().find('input#newsletter').hasClass('validation-failed')){
+                                $.cookie('oneNewsletterSubscribeFlag', 'true', {
+                                    path: '/'
+                                });
+                            }
+                        }, 500);
+                    });
+                    if(!(subscribeFlag && isSuccess) && !$.cookie('oneNewsletterSubscribe')){
+                        $.colorbox({
+                            inline:true,
+                            href:$('#one_newsletter'),
+                            opacity:    0.3,
+                            speed:      500,
+                            innerWidth:'700px',
+                            innerHeight:'300px',
+                            fixed: true,
+                            onOpen: function(){
+                                $('#cboxContent').addClass('newsletterbox');
+                                $('#cboxLoadingGraphic').addClass('box-loading');
+                            },
+                            onComplete: function(){
+                                setTimeout(function(){
+                                    $('#cboxLoadingGraphic').removeClass('box-loading');
+                                },800);
+                            },
+                            onClosed: function(){
+                                $('#cboxContent').removeClass('newsletterbox');
+                            }
+                        });
+                    }else{
+                        $.removeCookie('oneNewsletterSubscribeFlag', { path: '/' });
+                        subsSetcookie();
+                    }
+                });
+                //]]>
+            </script>
+        </div>
+    </div>
+            </section>
+</section>
+</body>
+
+<!-- Mirrored from nouthemes.com/magento/bakery/customer/account/login/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Dec 2016 09:04:45 GMT -->
+</html>

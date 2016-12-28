@@ -146,8 +146,8 @@
     <section class="page-title" style="background-image:url(images/background/page-title-1.jpg);">
     	<div class="auto-container">
         	<div class="sec-title">
-                <h1>Order Online</h1>
-                <div class="bread-crumb"><a href="index.html">Home</a> / <a href="#" class="current">Order Online</a></div>
+                <h1>CHECK OUT</h1>
+                <div class="bread-crumb"><a href="index.html">Home</a> / <a href="#" class="current">CHECK OUT</a></div>
             </div>
         </div>
     </section>
@@ -156,45 +156,6 @@
     <!--Menu Style One-->
     <section class="menu-one">
         <div class="container pm-containerPadding-top-10 pm-containerPadding-bottom-60" id="catering-form">
-            <!-- <div class="row">
-                <div class="col-md-12">
-                    <div class="userdata" >
-                      <div class="form-inline">
-                        <div class="form-group">
-                          <label for="inputEmail3"> &nbsp; </label><br><br>
-                          <h3>Login &nbsp; </h3>
-                        </div>
-                        <div class="form-group">
-                          <label for="inputEmail3">Email: </label>
-                          <input required type="text" name="email" class="form-control" placeholder="Email" value="" >
-                        </div>
-                        <div class="form-group">
-                          <label for="inputEmail3"> Order pin or password: </label>
-                          <input required type="text" name="order_pin" class="form-control" Placeholder="Order pin or password" value="" >
-                        </div>
-                        <div class="form-group">
-                          <label for="inputEmail3"> &nbsp; </label><br>
-                          <input type="submit" name="Submit" class="btn btn-success pull-right" style="width: 100px;" value="Login"> 
-                        </div>
-                        <div class="form-group">
-                          <div class="userdata" style="color:white;">
-                            <a href="<?php echo base_url();?>order/forget_order_pin"><br>Forgot Order Pin?</a>       
-                          </div>
-                        </div>
-                        <div class="form-group pull-right">
-                          <label for="inputEmail3"> &nbsp; </label><br>
-                         <a class="btn btn-info pull-right" href="<?php echo site_url('order/item_list'); ?>" ><i class="fa fa-shopping-cart"></i> Continue Shopping</a>       
-                        </div>
-                      </div>
-                    </div>
-                    <hr>
-                </div>
-                <br>
-                <div id="flash_error" class="alert alert-success">
-                    <button type="button" class="close" data-dismiss="alert">×</button>
-                    <div style="color:red;" id="return_error_message"></div>
-                </div>
-            </div> -->
             <div class="row contant">
                 <form id="checkout_form">
                     <br>
@@ -334,10 +295,17 @@
                                           <input type="radio" name="order_type" id="paymentmethod_1" checked="true" required value="delivery" style="margin:10px" /><label for="paymentmethod_1">Delivery</label>
                                         </fieldset>
                                       </td>
+                                      <td>
+                                        <fieldset id="payment">
+                                          <input type="radio" name="order_type" id="paymentmethod_1" checked="true" required value="delivery" style="margin:10px" /><label for="paymentmethod_2">Collection</label>
+                                        </fieldset></td>
                                     </tr>
                                     <tr>
                                       <td colspan="1">
-                                        <span>Date</span>
+                                        <tr>
+                                          <td>Date</td>
+                                          <td><input type="date"></input></td>
+                                        </tr>
                                       </td>
                                       <td colspan="3"> 
                                         <input required  type="text" value="" name="delivery_date" id="datepicker" /><br/>
@@ -345,18 +313,13 @@
                                     </tr>
                                     <tr>
                                       <td colspan="1">
-                                        <span>Time</span>
-                                        <br>
-                                        <br> 
+                                        <tr>
+                                          <td>Time</td>
+                                          <td><input type="time"></input></td>
+                                        </tr> 
                                       </td>
                                       <td colspan="3" valign="top">
                                         <div style="display: inline; color:#000; " id="timepeaker"></div>
-                                      </td>
-                                    </tr>
-                                    <tr>
-                                      <td colspan="5">
-                                        <input type="checkbox" name="asap" value="1">
-                                         <span style="color:red;">PLEASE DELIVER ASAP </span><br>
                                       </td>
                                     </tr>
                                     <tr style="border-top:1px solid #fff;">
@@ -367,49 +330,18 @@
                                           <table>
                                             <tr>
                                               <td><input type="radio" name="payment_method" class="payment_method" id="paymentmethod_1"></td>
-                                              <td><label for="paymentmethod_1"></label> <br></td>
+                                              <td><label for="paymentmethod_1">Cash Payment</label> <br></td>
+                                              </tr>
+                                              <tr>
+                                              <td><input type="radio" name="payment_method" class="payment_method" id="paymentmethod_1"></td>
+                                              <td><label for="paymentmethod_2">Telephone Card Payment </label> <br></td>
                                             </tr>
                                           </table>
                                         </td>  
                                       </tr>
                                     </table>
                                 </div>
-                                <div id="items_in_checkout"></div>
-                                <div id="billing_address_part" class="form-horizontal">  
-                                      <div id="addressLine1" class="form-group">
-                                        <label for="inputEmail3" class="col-sm-3 control-label"><span style="color:red;">* </span>Billing Address 1</label>
-                                        <div class="col-sm-9">
-                                          <input  type="text" class="form-control" name="billing_address_line1"  value=""  id="billing_address_line1" placeholder="Billing Address 1">
-                                        </div>
-                                      </div>
-                                      <div id="addressLine2" class="form-group">
-                                        <label for="inputEmail3" class="col-sm-3 control-label"><span style="color:red;">* </span>Billing Address 2</label>
-                                        <div class="col-sm-9">
-                                          <input  type="text" class="form-control" name="billing_address_line2"  value=""  id="billing_address_line2"  placeholder="Billing Address 2">
-                                        </div>
-                                      </div>
-                                      <div id="postCodeDiv" class="form-group">
-                                        <label for="inputEmail3" class="col-sm-3 control-label"><span style="color:red;">* </span>Billing Postcode</label>
-                                        <div class="col-sm-9">
-                                          <input  type="text" class="form-control" name="billing_post_code" value="" id="billing_post_code" placeholder="Billing Postcode">
-                                        </div>
-                                      </div>
-                                      <div id="cityDiv" class="form-group">
-                                        <label for="inputEmail3" class="col-sm-3 control-label"><span style="color:red;">* </span>Billing Town/City</label>
-                                        <div class="col-sm-9">
-                                          <input  type="text" class="form-control" name="billing_city" value="" id="billing_city" placeholder="Billing Town/City">
-                                        </div>
-                                      </div>
-                                      <div id="cityDiv" class="form-group">
-                                        <label for="inputEmail3" class="col-sm-3 control-label"><span style="color:red;">* </span>Billing Country</label>
-                                        <div class="col-sm-9">
-                                          <select class="form-control" name="billing_country" id="billing_country">
-                                            <option value="">-Select Country-</option>
-                                              <option></option>
-                                          </select>
-                                        </div>
-                                      </div>
-                                </div>  
+                                <div id="items_in_checkout"></div> 
                                 <div id="final_section"></div>
                                 <div id="paymentSection"></div>
                                 <input type="button" id="confirm_purchase" class="btn btn-success pull-right" style="margin-right:15px;" value="Confirm Purchase"/>

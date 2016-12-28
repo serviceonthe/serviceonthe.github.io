@@ -7415,3 +7415,235 @@ ul,li{
 	border-bottom: 1px solid #eee;
 	padding-bottom: 50px;
 }
+
+
+
+
+
+.badge {
+  background-color: #777;
+}
+
+.tabs-left { margin-top: 3rem; }
+
+.nav-tabs {
+  float: left;
+  border-bottom: 0;
+  
+
+  li {
+    float: none;
+    margin: 0;
+    
+    a {
+      margin-right: 0;
+      border: 0;
+      background-color: #333;
+      
+      &:hover {
+        background-color: #444;
+      }
+    }
+  }
+  
+  .glyphicon {
+    color: #fff;
+  }
+  
+  .active .glyphicon {
+    color: #333;
+  }
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+  border:0;
+}
+
+.tab-content {
+  margin-left: 45px;
+  
+  .tab-pane {
+    display: none;
+    background-color: #fff;
+    padding: 1.6rem;
+    overflow-y: auto;
+  }
+  
+  .active { display: block; }
+}
+
+.list-group {
+  width: 100%;
+  
+  .list-group-item {
+    height: 50px;
+    
+    h4, span {
+      line-height: 11px;
+    }
+  }
+}
+
+h2.subheadings {
+    background-color: #feb003;
+    padding: 5px 20px;
+    font-size: 22px;
+    color: #fff;
+    margin: 0 0 5px 0;
+    font-family: "Sabon W15 Bold",georgia,sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.item-category ul {
+    margin: 0px;
+    padding: 0px;
+}
+.item-category ul li {
+    list-style: none;
+    margin-bottom: 5px;
+    background: #9e0000;
+}
+.item-category ul li a {
+    display: block;
+    padding: 10px 15px;
+    border: 1px solid #9e0000;
+    color: #eee;
+    font-size: 15px;
+    font-weight: bold;
+}.item-category ul li a:hover {
+    background: #ff5200;
+    color: #fff;
+}
+
+    .cart-th th{
+        text-align: center;
+        font-weight: bold;
+    }
+    .cart-th th:first-child{
+        text-align: left;
+    }
+    td.qty table tr td {
+        padding: 0px;
+        margin: 0px;
+    }
+    td.qty table {
+        margin: 0px;
+        padding: 0px;
+    }
+    .items{
+        text-align: left;
+    }
+    tr.cart-th {
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+.floating #cart_header {
+    background-color: #feb003;
+    padding: 7px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #fff;
+}
+#cart-i {
+    cursor: pointer;
+}
+i.fa.fa-shopping-cart {
+    font-size: 22px !important;
+}
+.item {
+    background-color: #9e0000;
+    color: #fff;
+    padding: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 1px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.item:hover {
+    background-color: #feb003;
+    color: #fff;
+}
+.item h2, h3 {
+    margin: 0px;
+    padding-bottom: 5px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: "Sabon W15 Bold",georgia,sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.item p {
+    margin: 0;
+    margin-bottom: 5px;
+}
+.item.item_add_cart {
+    background: #9e0000;
+    color: #fff;
+}.item:hover .item_add_cart {
+    background: #9e0000;
+    color: #fff;
+}
+.button {
+    background-color: #feb003;
+    color: #fff !important;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    border-radius: 3px;
+}
+select.selectSubItem {
+    height: 28px;
+    padding: 0px;
+    background: #fff;
+    border-radius: 0;
+    border: 1px solid #9e0000;
+    margin-left: 5px;
+    color: #333;
+    text-transform: uppercase;
+}
+.item-list .row{
+	padding: 0;
+	margin: 0;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #9e0000;
+    border-color: #9e0000;
+}
+.i-price {
+	padding-top: 20px !important;
+}
+
+
+
+tr.cart-th {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.cart-th th:first-child {
+    text-align: left;
+}
+.cart-th th {
+    text-align: center;
+    font-weight: bold;
+}
+a.check-out {
+    background-color: rgb(24, 147, 76);
+    color: rgb(255, 255, 255);
+    padding: 3px 15px;
+    float: right;
+}
+.cart-action button {
+    background-color: #feb003;
+    color: rgb(255, 255, 255);
+    padding: 3px 15px;
+    float: left;
+}
+.cart-action button:hover {
+    background-color: #9e0000;
+    
+}
