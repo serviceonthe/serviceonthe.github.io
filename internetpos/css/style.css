@@ -142,6 +142,7 @@ img{
 	background: url(../images/bg/home.jpg) fixed;
 	background-size:cover;
 }
+
 .top-bar{
 	padding:30px 0;
 }
@@ -754,4 +755,33 @@ img{
 }
 .client-img img{
 	width: 100px;
+}
+
+.have_box{
+	border: 1px solid #ccc;
+	background: #fff;
+	padding: 30px 20px;
+}
+label {
+	font-size: 13px;
+	font-weight: normal;
+	color: #747474;
+}
+.OrderDetails.form-group label{
+	text-align: right !important;
+}
+.btn-primary{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.clients-box{
+	width: 20%;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+.clients-box2{
+	width: 80%;
+	padding: 0;
+	margin: 0;
 }
