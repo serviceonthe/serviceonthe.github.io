@@ -1,0 +1,170 @@
+/*
+* Portfolio
+*
+* @package Hustle
+* @subpackage CSS
+*/
+
+/* Tags Filter */
+#tags-filter, #port-tags-filter { margin: 0 0 60px 0; text-align: center;}
+	#tags-filter li, #port-tags-filter li { font-family: 'Montserrat', 'sans-serif'; display: inline-block; margin: 0 10px 0 0; font-size: 12px; text-transform: uppercase;}
+		#tags-filter a, #port-tags-filter a { padding: 10px 20px; border: 1px solid #efefef;}
+			#tags-filter a:hover, #port-tags-filter a:hover { background: #efefef;}
+			#tags-filter a.selected, #port-tags-filter a.selected { background: rgba(176,209,74,1); color: #fff;}
+
+.grid {
+	overflow: hidden;
+	margin: 0;
+	padding: 3em 0 0 0;
+	width: 100%;
+	list-style: none;
+	text-align: center;
+}
+
+	.owl-carousel.grid { padding: 0;}
+
+/* Common style */
+.grid figure {
+	position: relative;
+	display: block;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: #000;
+	cursor: pointer;
+}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	opacity: 0.8;
+}
+
+.grid figure figcaption {
+	padding: 1.5em;
+	color: #fff;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure a {
+	z-index: 1000;
+	height: 100%;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.grid figure h5 {
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+.grid figure h5 span {
+	font-weight: 800;
+}
+
+.grid figure h5,
+.grid figure p {
+	margin: 0;
+}
+
+.grid figure p {
+	letter-spacing: 1px;
+}
+
+/*--------------------------*/
+/***** Event Layout One *****/
+/*--------------------------*/
+
+figure.event-one h5,
+figure.event-one p {
+	position: absolute;
+}
+
+figure.event-one h5 { bottom: 20%;}
+figure.event-one p { bottom: 10%; color: #ccc; font-size: 0.875rem;}
+
+
+/*--------------------------*/
+/***** Event Layout Two *****/
+/*--------------------------*/
+
+figure.effect-lily img {
+	opacity: 0.4;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-lily figcaption {
+	top: auto;
+	bottom: 0;
+	height: 100%;
+	text-align: left;
+}
+
+figure.effect-lily h5,
+figure.effect-lily p {
+	position: absolute;
+	-webkit-transform: translate3d(0,40px,0);
+	transform: translate3d(0,40px,0);
+}
+
+figure.effect-lily h5 {
+	opacity: 0;
+	bottom: 20%;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+figure.effect-lily p {
+	bottom: 10%;
+	color: #ccc;
+	opacity: 0;
+	font-size: 0.875rem;
+	-webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
+	transition: opacity 0.2s, transform 0.35s;
+}
+
+figure.effect-lily:hover h5,
+figure.effect-lily:hover p {
+	opacity: 1;
+}
+
+figure.effect-lily:hover img {
+	opacity: 0.6;
+}
+
+figure.effect-lily:hover img,
+figure.effect-lily:hover h5,
+figure.effect-lily:hover p {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect-lily:hover p {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+	-webkit-transition-duration: 0.35s;
+	transition-duration: 0.35s;
+}

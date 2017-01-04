@@ -1,0 +1,93 @@
+/*
+* Reservation Modal Popup
+* 
+* @package WP Provisions
+* @subpackage CSS
+*/
+
+/** Overlay & Reservation Form
+==============================================================================*/
+
+#overlay, 
+#reservation { opacity: 0; transition: .5s;}
+
+/* Overlay */
+#overlay { position: absolute; overflow: hidden; top: 0; right: 0; bottom: 0; left: 0; height: 100%; width: 100%; background: rgba(26,53,71,.85); pointer-events: none; z-index: 999;}
+  #overlay.open { opacity: 1; pointer-events: auto;}
+
+  /* Registration Form */
+  #reservation { position: relative; width: 300px; margin: 100px auto 0; border-radius: 5px; box-shadow: 0 5px 12px rgba(15,27,39,.4); background: #fff; -webkit-transform: translateY(80%) scale(.8); transform: translateY(80%) scale(.8); transition-timing-function: cubic-bezier(.3, 0, 0, 1.3); transition-delay: .4s; z-index: 9999;}
+  	#reservation-inner { padding: 25px;}
+    .open #reservation { opacity: 1; -webkit-transform: none; transform: none;}
+      ::-webkit-input-placeholder { /* WebKit browsers */
+        color:    #555;
+      }
+      :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+         color:    #555;
+         opacity:  1;
+      }
+      ::-moz-placeholder { /* Mozilla Firefox 19+ */
+         color:    #555;
+         opacity:  1;
+      }
+      :-ms-input-placeholder { /* Internet Explorer 10+ */
+         color:    #555;
+      }
+
+    /* Close Button */
+    #reservation .close { position: absolute; z-index: 999; width: 18px; height: 18px; right: 7px; top: 10px; text-indent: -9000px; background-image: url(../images/close.png);}
+
+      @media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+        #reservation .close { background-image: url(../images/close%402x.png); background-size: 100% 100%;}
+      }
+
+     #step1,
+     #step2,
+     #step2busy,
+     #step3,
+     #step4, { width: 100%; height: 100%; float: none; clear: both; margin: 16px 0 0 0;}
+
+    #reservation h4 { margin: 20px 0;}
+    #reservation h2 { float: none !important; font-size: 1em; margin: 25px 0 16px 0;}
+   
+    #reservation #cancel-reservation,
+    #reservation #back-to-reservation { position: absolute; top: 10px; right: 30px; padding: 4px 10px; background: rgba(238,130,130,1); border-radius: 10px; color: rgba(255,255,255,1); font-size: .5em; line-height: normal; text-transform: uppercase; text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);}
+	    #reservation #back-to-reservation { background: rgba(71,72,67,1);}
+
+    #reservation label { display: block;}
+
+    #reservation input { width: 100%; padding: 8px; font-size: 12px; border: 1px solid #e9ebed; border-radius: 5px; margin: 0 0 8px 0;}
+    	#reservation input[type="submit"] { margin-top: 16px;}
+      #reservation input:focus,
+      #reservation input[type="email"]:focus { background: none;}
+
+      #step1load,
+      #step2load,
+      #step3load,
+      #step4load { position: relative; top: 10px; text-align: center; margin: 0 auto;}
+
+       #ui-datepicker-div { position:relative; z-index: 9999999;}
+
+       #buttons #opentime_0 label { display: none;}
+       .redi-restaurant-time-button { margin: 0 2px; width: 70px;}
+
+      .redi-reservation-select { box-shadow: none; line-height: normal;}
+
+      .redi-reservation-alert { font-size: .85em; line-height: 1.5em; padding: 12px !important; text-align: center; margin: 16px 0 0 0; border-radius: 3px;}
+
+    .confirm { display: block; margin-top: 20px; padding: 8px 0; border: 1px solid #e9ebed; border-radius: 5px; background: #fafafb;}
+
+    /* Form Response */
+    #formresponse { display: none; padding: 15px; border-radius: 5px;}
+      #formresponse.formsuccess { background: #94d6ff;}
+      #formresponse.formerror { background: #a21721;}
+
+      /* Notifications */
+      #reservationform .notification { background: none; font-size: 12px; line-height: 18px; color: #fff; margin: 0; padding: 0; border: 0;}
+
+      /* Form Loader */
+      #formloader { font-size: 2em; vertical-align: middle; color: #2ea9ef; display: none;}
+
+      #servicetype,
+      #ctreservationemail,
+      #ctreservationsubject { display: none;}
