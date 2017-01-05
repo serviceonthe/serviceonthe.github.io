@@ -414,9 +414,9 @@ Stylesheet Guide
 /* ============================================================================== */
 
 	form {
-		margin-bottom: 20px;}
+		margin-bottom: 0px;}
 	fieldset {
-		margin-bottom: 20px;}
+		margin-bottom: 0px;}
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],

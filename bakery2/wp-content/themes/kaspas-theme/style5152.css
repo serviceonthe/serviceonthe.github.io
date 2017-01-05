@@ -29,6 +29,9 @@ Template:       provisions
 	body {
 		color: #333;
 	}
+	strong{
+		font-size: 15px;
+	}
 	.widget h5:after, .aq-block-aq_widgets_block .widget h2:after, .aq-block-aq_widgets_block .widget h5:after {
 		display: none;
 	}
@@ -96,8 +99,8 @@ Template:       provisions
 	}
 
 	body h1, body h2, body h3, body h4, body h5, body h6 {
-		font-family: 'Bebas', sans-serif!important;
-		color: #ed187c;
+		text-transform: uppercase;
+		color: #891e5a;
 	}
 
 	h1 *, h2 *, h3 *, h4 *, h5 *, h6 * {
@@ -182,7 +185,7 @@ Template:       provisions
 				}
 				.cbp-tm-menu li.current-menu-item, .cbp-tm-menu li.current_page_parent, .cbp-tm-menu li.current-menu-item a, .cbp-tm-menu li.current_page_parent a {
 					border: 0;
-					color: #ed187c!important;
+					color: #891e5a!important;
 				}
 
 				ul.sub-menu ul.sub-menu {
@@ -238,7 +241,7 @@ Template:       provisions
 			    font-size: 60px;
 			    line-height: 42px;
 			    margin: 0;
-			    color: #ed207b;
+			    color: #891e5a;
 			}
 
 	/* Content */
@@ -340,7 +343,7 @@ Template:       provisions
 				}
 
 					body.home div.aq-block-aq_widgets_block aside.widget ul h5 a {
-						color: #ed207b;
+						color: #891e5a;
 					}
 
 				body.home div.aq-block-aq_widgets_block aside.widget ul p {
@@ -356,7 +359,7 @@ Template:       provisions
 				    padding: 10px;
 				    box-sizing: border-box;
 				    border-radius: 5px;
-				    height: 306px;
+				    height: auto;
 				}
 
 					ul#posts-list li:first-of-type {
@@ -385,10 +388,10 @@ Template:       provisions
 				}
 
 					div.twitterfeed-container h6 {
-					    font-size: 16px;
-					    font-weight: normal;
-					    text-transform: none;
-					    color: #ddd;
+						text-transform: uppercase;
+						margin: 3px;
+						color: #891e5a;
+						font-size: 24px;
 					}
 
 					div.twitter-follow-button-container {
@@ -480,7 +483,7 @@ Template:       provisions
 	}
 
 .archive-inner.offers article:nth-of-type(2n) {
-	background: #ed207b;
+	background: #891e5a;
 }
 	.archive-inner.offers article h2 {
 		color: #ffffff;
@@ -547,15 +550,11 @@ Template:       provisions
 
 			li.staff {
 			    background-color: rgba(0,0,0,0.90);
-			    border: 1px solid #dddddd;
 			    min-height: 160px;
 			    position: relative;
 			}
 				.staff-inner {
-				    padding: 20px;
-				    text-align: left;
-			        line-height: 20px;
-			        color: #ffffff;
+				    padding: 5px;
 				}
 
 				.staff .contact-social { 
@@ -584,7 +583,7 @@ Template:       provisions
 		    position: absolute;
 		    bottom: 0;
 		    right: 0;
-		    background-color: #ed207b;
+		    background-color: #891e5a;
 		    padding: 5px 10px;
 		    margin: 0;
 		    color: #eeeeee;
@@ -676,7 +675,7 @@ Template:       provisions
 	.menu-content {
 	    font-size: 24px;
 	    text-align: center;
-	    color: #ed207b;
+	    color: #891e5a;
 	}
 
 	/* Menu Sidebar */
@@ -692,7 +691,7 @@ Template:       provisions
 
 			}
 			div#menu-list a.active {
-				color: #ed207b;
+				color: #891e5a;
 			}
 
 				div#menu-list a li {
@@ -834,7 +833,7 @@ Template:       provisions
 					
 				}
 				ul.food_types a:hover li, ul.food_types a.current li.span_2.col {
-					background-color: #ed207b;
+					background-color: #891e5a;
 					color: #ffffff;
     				text-shadow: 0px 0px 5px #000000;
 				}
@@ -883,10 +882,10 @@ Template:       provisions
 			}
 
 			li.food_item:nth-of-type(2n+1) {
-			    background: #ed207b;
+			    background: #891e5a;
 			}
 			li.food_item:nth-of-type(2n) {
-			    background: #ed207b;
+			    background: #891e5a;
 			    margin-right: 0;
 			    margin-left: 5px;
 			}
@@ -927,7 +926,7 @@ Template:       provisions
 		}
 		a.franchise-button {
 	        padding: 15px 25px;
-		    background-color: #ed207b;
+		    background-color: #891e5a;
 		    color: #ffffff;
 		    font-family: 'Oswald', sans-serif;
 		    text-transform: uppercase;
@@ -990,7 +989,7 @@ Template:       provisions
 
 					div#contact-form-container a {
 					    margin: 5px 0;
-					    color: #ed207b;
+					    color: #891e5a;
 					    display: inline-block;
 					}
 
@@ -1001,7 +1000,7 @@ Template:       provisions
 					}
 
 					div#contact-form-container input[type="submit"] {
-					    background-color: #ed207b;
+					    background-color: #891e5a;
 					    margin: 10px 0 0;
 					    font-family: 'Oswald', sans-serif;
 				        font-size: 16px;
@@ -1021,7 +1020,7 @@ Template:       provisions
 			    color: #444;
 			    display: inline-block;
 			    width: 100%;
-			    margin: 0 0 5px 0;
+			    margin: 0 0 10px 0;
 			    padding: 10px 17px;
 			    background: #fff;
 			    border: 1px solid #e9ebed;
@@ -1121,7 +1120,7 @@ Template:       provisions
 			.footer-bottom {
 		        padding-top: 0;
 			    padding-bottom: 0;
-			    border-top: 1px solid #ed187c;
+			    border-top: 1px solid #891e5a;
 			    font-size: 12px;
 			    font-family: sans-serif;
 			    overflow: hidden;
@@ -1138,7 +1137,7 @@ Template:       provisions
 				}
 
 					.footer-bottom p a {
-						color: #ed187c;
+						color: #891e5a;
 					}
 
 				.footer-bottom ul.social.right {
@@ -1187,7 +1186,7 @@ Template:       provisions
 		/* Header */
 
 			.show-hide {
-				background: #ed207b;
+				background: #891e5a;
 			}
 
 			.cbp-spmenu-right {
@@ -1211,7 +1210,7 @@ Template:       provisions
 					color: #ffffff;
 				}
 				.cbp-spmenu a:hover {
-				    background: #ed207b;
+				    background: #891e5a;
 				}
 
 					ul.sub-menu {
@@ -1335,7 +1334,6 @@ Template:       provisions
 				    position: static;
 				    float: right;
 				    margin: 35px 10px 0 0;
-				    padding: 12px;
 				}
 
 				.site-logo {
@@ -1397,7 +1395,7 @@ Template:       provisions
 			    background: #000000;
 			}
 			li.food_item:nth-of-type(2n+1) {
-			    background: #ed207b;
+			    background: #891e5a;
 			}
 
 		/* Offers */
@@ -1458,3 +1456,26 @@ Template:       provisions
 	border-width: 1px;
 	border-style: solid;
 	}
+
+
+
+.gallery ul{
+
+}
+.gallery ul li{
+	
+}
+.gallery.staff.staff-inner img{
+	position: relative;
+}
+.gallery.staff.staff-inner img:hover{
+	width: 400px !important;
+	z-index: 9999;
+}
+
+.bakery{
+	text-transform: uppercase;
+	margin: 3px;
+	color: #891e5a;
+	font-size: 24px;
+}

@@ -233,8 +233,8 @@ Stylesheet Guide
 					.menu-item-two .pricing li span { display: inline-block; float: right; font-weight: normal; padding: 0 0 0 10px;}
 
 	/* Staff Archive */
-	.staff { margin-bottom: 2%; min-height: 250px; border: 1px solid #efefef;}
-		.staff-inner { padding: 20px;}
+	.staff { margin-bottom: 2%; min-height: 250px;}
+		.staff-inner { padding: 0px;}
 	.staff:nth-child(4n) { margin-left: 0 !important;}
 		.staff:nth-child(4n):after { clear: both;}
 		.staff h4,
