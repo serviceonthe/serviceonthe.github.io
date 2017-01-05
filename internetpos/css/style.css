@@ -695,7 +695,7 @@ img{
 .contact-info-area{
 	background: url(../images/bg/map.jpg) fixed;
 	background-size:cover;
-	padding:70px 0;
+	padding:30px 0;
 }
 .contact-info-area h6{
 	padding-bottom:20px;
@@ -766,6 +766,7 @@ label {
 	font-size: 13px;
 	font-weight: normal;
 	color: #747474;
+	float: left;
 }
 .OrderDetails.form-group label{
 	text-align: right !important;
@@ -788,7 +789,7 @@ label {
 }
 
 .cartpage input{
-	width: 40px;
+	width: 30px;
 	height: 31px;
 	font-size: 14px;
 }
@@ -802,4 +803,14 @@ label {
 .table > thead > tr > th {
     vertical-align: bottom;
     border-bottom: 1px solid #ddd;
+}
+
+
+.checkout{
+	background: #31b0d5;
+	color: #222;
+}
+.checkout:hover{
+	background: #269abc;
+	color: #222;
 }

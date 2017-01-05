@@ -48,7 +48,7 @@
 							<div class="logo"><a href="index.html"><img src="images/logo.png" alt="logo" /></a></div>
 						</div>
 						<div class="col-md-6 col-sm-6 text-right mobile-center">
-							<a href="checkout.html" class="button red">LOGIN <i class="fa fa-sign-in" aria-hidden="true"></i></a>
+							<a href="login.html" class="button red">LOGIN <i class="fa fa-sign-in" aria-hidden="true"></i></a>
 						</div>
 					</div>
 				</div>
@@ -78,8 +78,11 @@
 											<tr>
 												<td width="45%" style="text-align: left;">Product Name</td>
 												<td width="20%" style="text-align: center;">&pound;74.49 every 3 months</td>
-												<td width="10%" style="text-align: center;"><p class="cartpage"><i class="fa fa-minus" aria-hidden="true"></i><input type="text" id="order"></input><i class="fa fa-plus" aria-hidden="true"></i></p></td>
-												<td width="20%" style="text-align: center;">&pound;1,042.86 every 3 months</td>
+												<td width="10%" style="text-align: center;">
+												<p class="cartpage"><i class="fa fa-minus" aria-hidden="true"></i>
+												<input type="text" id="order"></input>
+												<i class="fa fa-plus" aria-hidden="true"></i></p></td>
+												<td width="20%" style="text-align: center;"><strong>&pound;1,042.86</strong> every 3 months</td>
 												<td width="5%" style="text-align: right;"><p><i class="fa fa-times" aria-hidden="true"></i></p></td>
 											</tr>
 										</tbody>
@@ -133,75 +136,92 @@
 													<form>
 													  <div class="form-group">
 													  	<div class="row">
-													  		<div class="col-md-6">
-															    <label for="FirstName"><strong>Product Name</strong></label>
-													    	</div>
-													  		<div class="col-md-6">
-															    <label for="LastName" style="text-align: right;"><strong>Total</strong></label>
+													  		<div class="col-md-12 OrderDetails">
+																  <div class="form-group">
+																  	<div class="row">
+																  		<div class="col-md-10">
+																		    <label for="Subtotal" style="text-align: right;"><strong>Subtotal</strong></label>
+																    	</div>
+																  		<div class="col-md-2">
+																		    <label for="price" style="text-align: right;"><strong>&pound;744.90</strong></label>
+																  		</div>
+																  	</div>
+																  </div>
+																  <div class="form-group">
+																  	<div class="row">
+																  		<div class="col-md-6">
+																		    <label for="Shipping" style="text-align: right;"><strong>Shipping</strong></label>
+																    	</div>
+																  		<div class="col-md-6">
+																		    <label for="price" style="text-align: right !important;">Shipping costs will be calculated once you have provided your address. </label>
+																  		</div>
+																  	</div>
+																  </div><hr>
+																  <div class="form-group">
+																  	<div class="row">
+																  		<div class="col-md-10">
+																		    <label for="Total"><strong>Total</strong></label>
+																    	</div>
+																  		<div class="col-md-2">
+																		    <label for="price" style="text-align: right;"><strong>&pound;744.90</strong></label>
+																  		</div>
+																  	</div>
+																  </div><hr>
+																  <div class="form-group">
+																  	<div class="row">
+																  		<div class="col-md-6">
+																		    <label for="Recurring"><strong>Recurring Total</strong></label>
+																    	</div>
+																  		<div class="col-md-6">
+																		    <label for="price" style="text-align: right;"></label>
+																  		</div>
+																  	</div>
+																  </div><hr>
+																  <div class="form-group">
+																  	<div class="row">
+																  		<div class="col-md-8">
+																		    <label for="Subtotal" style="text-align: right;"><strong>Subtotal</strong></label>
+																    	</div>
+																  		<div class="col-md-4">
+																		    <label for="price" style="text-align: right;">&pound;74.49 every 3 months</label>
+																  		</div>
+																  	</div>
+																  </div>
+																  <div class="form-group">
+																  	<div class="row">
+																  		<div class="col-md-6">
+																		    <label for="Shipping" style="text-align: right;"><strong>Shipping</strong></label>
+																    	</div>
+																  		<div class="col-md-6">
+																		    <label for="price" style="text-align: right !important;">Shipping costs will be calculated once you have provided your address. </label>
+																  		</div>
+																  	</div>
+																  </div><hr>
+																  <div class="form-group">
+																  	<div class="row">
+																  		<div class="col-md-6">
+																		    <label for="Recurring"><strong>Recurring Total</strong></label>
+																    	</div>
+																  		<div class="col-md-6">
+																		    <label for="price" style="text-align: right;"><strong>&pound;74.49</strong> every 3 months First renewal </label>
+																  		</div>
+																  	</div>
+																  </div>
+																  <div class="form-group">
+																  	<div class="row">
+																  		<div class="col-md-12">
+													  						<button type="submit" class="btn btn-primary pull-right">Update Cart</button>
+																    	</div>
+																  	</div><br>
+																  	<div class="row">
+																  		<div class="col-md-12">
+													  						<button type="submit" class="btn btn-primary pull-right">Proceed to Checkout →</button>
+																    	</div>
+																  	</div>
+																  </div>
 													  		</div>
 													  	</div>
 													  </div>
-													  <hr>
-													  <div class="form-group">
-													  	<div class="row">
-													  		<div class="col-md-6">
-															    <label for="FirstName">Cannabox 3 Month Plan × 10</label>
-													    	</div>
-													  		<div class="col-md-6">
-															    <label for="LastName" style="text-align: right;">&pound;744.90 every 3 months</label>
-													  		</div>
-													  	</div>
-													  </div>
-													  <hr>
-													  <div class="form-group">
-													  	<div class="row">
-													  		<div class="col-md-6">
-													    	</div>
-													  		<div class="col-md-6 OrderDetails">
-																  <div class="form-group">
-																  	<div class="row">
-																  		<div class="col-md-6">
-																		    <label for="FirstName" style="text-align: right;"><strong>Subtotal</strong></label>
-																    	</div>
-																  		<div class="col-md-6">
-																		    <label for="LastName" style="text-align: right;"><strong>&pound;744.90</strong></label>
-																  		</div>
-																  	</div>
-																  </div>
-																  <div class="form-group">
-																  	<div class="row">
-																  		<div class="col-md-6">
-																		    <label for="FirstName" style="text-align: right;"><strong>Shipping</strong></label>
-																    	</div>
-																  		<div class="col-md-6">
-																		    <label for="LastName" style="text-align: right;"><strong>&pound;744.90</strong></label>
-																  		</div>
-																  	</div>
-																  </div>
-																  <div class="form-group">
-																  	<div class="row">
-																  		<div class="col-md-6">
-																		    <label for="FirstName"><strong>Total</strong></label>
-																    	</div>
-																  		<div class="col-md-6">
-																		    <label for="LastName" style="text-align: right;"><strong>&pound;744.90</strong></label>
-																  		</div>
-																  	</div>
-																  </div>
-																  <div class="form-group">
-																  	<div class="row">
-																  		<div class="col-md-6">
-																		    <label for="FirstName"><strong>Recurring Total</strong></label>
-																    	</div>
-																  		<div class="col-md-6">
-																		    <label for="LastName" style="text-align: right;"><strong>&pound;744.90</strong> every 3 months renewal</label>
-																  		</div>
-																  	</div>
-																  </div>
-													  		</div>
-													  	</div>
-													  </div>
-													  <button type="submit" class="btn btn-primary pull-right">Place order</button><br>
 													</form>
 												</div>
 											</div>
