@@ -1,0 +1,172 @@
+/*
+	Featured Content Slider
+	by: Chris Coyier
+*/
+*											{ margin: 0; padding: 0; }
+
+					  				  
+/*
+	UTILITY STYLES
+body 										{ font-family: Arial, Helvetica, sans-serif; font-size: 10px; }
+
+a											{ outline: none; }
+
+*/				  				  
+					  				  
+.floatLeft 									{ float: left; margin-right: 10px; z-index: 800;}
+.floatRight									{ float: right; z-index: 800;}
+.clear 										{ clear: both; }
+
+
+
+/*
+	PAGE STRUCTURE
+*/
+#page-wrap 									{
+	width: 722px;
+	position: relative;
+	/* [disabled]min-height: 390px; */
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 25px;
+	margin-left: auto;
+	padding-bottom:25px;
+}
+
+
+/*
+	TYPOGRAPHY
+
+ul											{ list-style: square inside; }
+a, a:visited								{ color: #729dff; text-decoration: none; }
+a:hover, a:active							{ color: white; }
+blockquote									{ padding: 0 20px; margin-left: 20px; border-left: 20px solid #ccc; font-size: 14px; 
+									  		  font-family: Georgia, serif; font-style: italic; margin-top: 10px;}
+*/
+/*
+	SLIDER
+*/
+.slider-wrap								{
+	width: 722;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}			
+.stripViewer .panelContainer 
+.panel ul									{ text-align: left; margin: 0 15px 0 30px; }
+.stripViewer								{
+	position: relative;
+	overflow: hidden;
+	width: 722;
+	height: 240px;
+	/* [disabled]background-color:#EAEAEA; */
+	/* [disabled]border:thin #F00 dashed; */
+}
+.stripViewer .panelContainer				{ position: relative; left: 0; top: 0; }
+.stripViewer .panelContainer .panel			{
+	float: left;
+	height: 100%;
+	position: relative;
+	width: 722px;
+}
+.stripNavL, .stripNavR, .stripNav			{ display: none; }
+
+                                            /* Move thumbnails up down*/
+#movers-row									{ margin: -150px 0 0 175px; } 
+#movers-row div								{ width: 180px; float: left; }
+#movers-row div a.cross-link 				{ float: right; }
+
+.product-data							{
+	padding: 7px;
+	height: 50px;
+	/* [disabled]margin-top: -10px; */
+	position: relative;
+	z-index: 9999;
+}
+
+.photo-meta-data							{
+
+	background-color:#999;
+	padding: 10px;
+	height: 40px;
+	margin-top: 160px;
+	position: relative;
+	z-index: 9999;
+	color: white;
+}
+
+
+.nav-thumb 			               /* featured product nav thumb image CSS*/						{
+	border: 1px solid #FFF;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-top: 18px;
+    margin-bottom:2px;
+	width: 147px;
+
+}
+
+
+
+.nav-thumb-txt {
+    margin-right: 15px;/* [disabled]margin-left: 15px; */
+    width: 147px;
+    font-size: 12px;
+    padding-left: 15px;
+    color: inherit;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Roboto Condensed';
+}
+
+
+                           /* controls thumbnail position and also background image link red hilight*/
+.cross-link									{
+	display: block;
+	width: 175px;
+	margin-top: 0px;         /* 0 seems good*/
+	position: relative;
+	padding-top: -0px;
+	z-index: 9999;
+	background-image: url(../images/icon-uparrowsmallwhite.png);
+	height: 150px;
+	color: #000;
+    text-decoration:none;
+}
+
+.active-thumb 								{
+	background-color: transparent;
+	background-image: url(../images/icon-uparrowsmallred.png);
+	background-repeat: no-repeat;
+	background-position: 0px top;
+	color: #FFF;
+}
+
+
+
+.txt01 {
+	font-family: Dosis, sans-serif;
+	font-size: 26px;
+	font-weight: normal;
+	color: #333;
+	text-transform: uppercase;
+}
+.txt02 {
+	font-family: Dosis, sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+	color: #666;
+}
+.txt03 {
+	font-family: Dosis, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #333;
+}
+.txt04 {
+	font-family: Dosis, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #C00;
+}
+

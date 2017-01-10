@@ -1,0 +1,82 @@
+/* CSS Document */
+
+.fishNane{
+	color:#333333;
+	font-size: 22px;
+	font-weight: bolder;
+	font-family: "roboto Condensed";
+	/* [disabled]padding-left:20px; */
+	/* [disabled]padding-right:20px; */
+	padding-top:5px;
+	padding-bottom:5px;
+	/* [disabled]border-radius:10px; */
+	/* [disabled]background-color:#FFC; */
+	min-width:300px;
+	/* [disabled]border:thin solid #FCC; */	
+}
+
+.fishPrice{
+	/* [disabled]padding-left:20px; */
+	/* [disabled]padding-right:20px; */
+	padding-top:15px;
+	color:#CC0000;
+	font-size: 18px;
+	font-weight: bolder;
+	font-family: "roboto Condensed";
+}
+
+.fishOfferDesc{
+	color:#666666;
+	font-size: 26px;
+	font-family: "roboto Condensed";
+	font-weight: lighter;
+	padding-bottom:20px;
+	padding-top:20px;
+	margin-bottom:10px;
+}
+.fishOfferMix{
+	color:#666666;
+	font-size: 38px;
+
+	font-family: "roboto Condensed";
+	font-weight: lighter;
+	padding-bottom:20px;
+	padding-top:20px;
+	margin-bottom:10px;
+}
+
+.fishTable{
+	width:330px;
+	height:134px;
+	border-radius:10px;
+	background-color:#F9F5F0;
+	padding:20px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.10);
+	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.10);
+	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.10);
+	background-image: url(../images/offerLogoBack.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	border: thin dashed #FC3;
+}
+.fishTable:hover{
+	width:330px;
+	height:134px;
+	background-color:#FFF;
+	padding:20px;
+	border-radius:10px;
+	/* [disabled]border: 1px dashed #CCCCCC; */
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.30);
+	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.30);
+	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.30);	
+		background-image: url(../images/offerLogoBack2.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	border: 0px dashed #FC3;
+}
+
+
+
+.offersBorder{
+	
+	}
