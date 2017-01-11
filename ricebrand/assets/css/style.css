@@ -471,19 +471,20 @@ transition: all 0.2s ease 0s;
     padding-bottom: 25px;
 }
 .about_single h2{
-    color: #fff;
+    color: #333;
     font-weight: bold;
-    padding: 5px;
+    padding: 0 5px
 
 }
 .about_single2 h2{
-    color: #fff;
+    color: #333;
     font-weight: bold;
-    padding: 5px;
+    padding: 0 5px
 
 }
 .about_single_one{
-    background: #ff0000;
+    border-radius: 5px;
+    border:1px solid #eee;
 }
 .about_single2 {
 
@@ -493,7 +494,8 @@ transition: all 0.2s ease 0s;
     padding: 0 10px ;
 }
 .about_single_two{
-    background: #ff0000;
+    border-radius: 5px;
+    border:1px solid #eee;
 }
 .about_single i {
 background: #fff none repeat scroll 0 0;
