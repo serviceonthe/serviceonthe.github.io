@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url(images/background2.png);
+	font-size: 18px;
+	color: #333;
+	font-family:"Arial";
+}
+}
+.container{
+	width: 800px;
+	background: #fff;
+	margin: 0 auto;
+	padding: 30px;
+}
+.row{
+	clear: both;
+
+}
+.col{
+	width: 50%;
+	float: left;
+}
+.col-7{
+	width: 60%;
+	float: left;
+}
+.col-5{
+	width: 40%;
+	
+}
+.logo{
+	width: 100%;
+}
+.social-img{
+	width: 100px;
+}
+.footer-img{
+	width: 100%;
+}
+.social-bottom{
+	clear: both;
+	margin-top: 430px;
+}
+.creat{
+	font-size: 36px;
+	font-family:"Bradley Hand ITC";
+}
+
+.menu{
+	float: right;
+    position: relative;
+    top: 200px;
+
+}
+.menu ul{
+	list-style: none;
+
+}
+.menu ul li{
+
+}
+.menu ul li a{
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	border: 1px solid red;
+	border-radius: 5px;
+	padding: 10px;
+	background: #222;
+	color: #fff;
+
+}
+.menu ul li a:hover{
+	color: #111;
+	background: #fff;
+	border: 1px solid #111;
+
+
+}

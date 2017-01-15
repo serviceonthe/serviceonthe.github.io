@@ -1,0 +1,126 @@
+body{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #333;
+}
+
+.header{
+	width: 100%;
+}
+.logo{
+
+}
+.logo img{
+	width: 250px;
+	margin-top: 10px;
+}
+.phn{
+	font: 28px;
+	color: 333;
+	float: right;
+}
+.phn span {
+    color: #7f51a1;
+}
+.phn h3{
+	color: #6cbd45;
+}
+
+.navbar {
+	margin-top: 10px;
+}
+.navbar-default {
+	background: #333;
+}
+.navbar-nav {
+}
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+	padding: 14px 22px;
+	text-transform: uppercase;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+	color: #fff;
+	background: #AC58FA;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	color: #fff;
+	background: #AC58FA;
+	border-right: 1px solid #333;
+}
+.navbar-default .navbar-nav>.active>a:before {
+	position: absolute;
+	font-size: 20px;
+}
+.navbar-default .navbar-nav>.active>a:before, .navbar-default .navbar-nav>li>a:hover:before 
+{
+	position: absolute;
+	margin-left: -11px;
+	font-size: 20px;
+}
+
+.clearfix {
+    display: block;
+}
+
+
+.slider{
+	margin-top: 10px;
+
+}
+.slider img{
+	width: 100%;
+}
+
+.offer{
+	margin-top: 10px;
+
+}
+.offers img{
+	width: 100%;
+	padding: 5px;
+}
+
+.welcome{
+
+}
+.welcome h2{
+	color: #AC58FA;
+
+}
+.welcome span{
+    color: #6cbd45;
+}
+
+
+.location{
+
+}
+.location img{
+	width: 100%;
+	padding: 5px;
+}
+
+.footer{
+	width: 100%;
+	height: 105px;
+	background: #e3e3e3;
+}
+
+.logo1{
+
+}
+.logo1 img{
+	width: 100%;
+	padding: 10px 20px;
+}
+
+.copy{
+	padding: 15px;
+}
+
+.social{
+	padding-top: 15px;
+
+}
