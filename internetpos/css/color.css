@@ -16,7 +16,7 @@
 
 .red-color h2,
 .red-color h2 small{
-	color:#aaa;
+	color:#e2403b;
 }
 .red,
 .red:after,
@@ -105,6 +105,7 @@
 
 .single-more-features h6:after{
 	background:#d7d7d7;
+	width: 50%;
 }
 .single-more-features p{
 	color:#7b7a7a;
@@ -114,7 +115,7 @@
 }
 
 .footer-bar{
-	color:#adadad;
+	color:#888;
 }
 .footer-bar a{
 	color:#269dd6;
