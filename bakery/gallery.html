@@ -32,7 +32,7 @@
 	<!-- REVOLUTION NAVIGATION STYLES -->
 	<link href="assets/css/revolution/navigation.css" rel="stylesheet" type="text/css">
 
-	
+
 	<!-- STYLESHEETS -->
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/responsive.css">
@@ -51,6 +51,30 @@
 	<script src="assets/js/html5shiv.min.js"></script>
 	<script src="assets/js/respond.min.js"></script>
 	<![endif]-->
+
+<!-- Add jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.6" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.6"></script>
+
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
 
 </head>
 <body>
@@ -119,6 +143,34 @@
 						<article class="post-single">
 							<div class="post-meta bg-white">
 
+								<a class="fancybox" rel="group" href="images/gallery/1.jpg"><img src="images/gallery/1.jpg" alt="" /></a>
+								<a class="fancybox" rel="group" href="images/gallery/2.jpg"><img src="images/gallery/2.jpg" alt="" /></a>
+								<a class="fancybox" rel="group" href="images/gallery/3.jpg"><img src="images/gallery/3.jpg" alt="" /></a>
+								<a class="fancybox" rel="group" href="images/gallery/4.jpg"><img src="images/gallery/4.jpg" alt="" /></a>
+								<a class="fancybox" rel="group" href="images/gallery/5.jpg"><img src="images/gallery/5.jpg" alt="" /></a>
+								<a class="fancybox" rel="group" href="images/gallery/6.jpg"><img src="images/gallery/6.jpg" alt="" /></a>
+								<a class="fancybox" rel="group" href="images/gallery/7.jpg"><img src="images/gallery/7.jpg" alt="" /></a>
+								<a class="fancybox" rel="group" href="images/gallery/8.jpg"><img src="images/gallery/8.jpg" alt="" /></a>
+								<a class="fancybox" rel="group" href="images/gallery/9.jpg"><img src="images/gallery/9.jpg" alt="" /></a>
+								<a class="fancybox" rel="group" href="images/gallery/10.jpg"><img src="images/gallery/10.jpg" alt="" /></a>
+								<a class="fancybox" rel="group" href="images/gallery/11.jpg"><img src="images/gallery/11.jpg" alt="" /></a>
+								<a class="fancybox" rel="group" href="images/gallery/12.jpg"><img src="images/gallery/12.jpg" alt="" /></a>
+								<a class="fancybox" rel="group" href="images/gallery/13.jpg"><img src="images/gallery/13.jpg" alt="" /></a>
+								<a class="fancybox" rel="group" href="images/gallery/15.jpg"><img src="images/gallery/15.jpg" alt="" /></a>
+								<a class="fancybox" rel="group" href="images/gallery/16.jpg"><img src="images/gallery/16.jpg" alt="" /></a>
+								<a class="fancybox" rel="group" href="images/gallery/17.jpg"><img src="images/gallery/17.jpg" alt="" /></a>
+								<a class="fancybox" rel="group" href="images/gallery/19.jpg"><img src="images/gallery/19.jpg" alt="" /></a>
+								<a class="fancybox" rel="group" href="images/gallery/20.jpg"><img src="images/gallery/20.jpg" alt="" /></a>
+								<a class="fancybox" rel="group" href="images/gallery/21.jpg"><img src="images/gallery/21.jpg" alt="" /></a>
+								<a class="fancybox" rel="group" href="images/gallery/22.jpg"><img src="images/gallery/22.jpg" alt="" /></a>
+								<a class="fancybox" rel="group" href="images/gallery/23.jpg"><img src="images/gallery/23.jpg" alt="" /></a>
+								<a class="fancybox" rel="group" href="images/gallery/24.jpg"><img src="images/gallery/24.jpg" alt="" /></a>
+								<a class="fancybox" rel="group" href="images/gallery/25.jpg"><img src="images/gallery/25.jpg" alt="" /></a>
+								<a class="fancybox" rel="group" href="images/gallery/26.jpg"><img src="images/gallery/26.jpg" alt="" /></a>
+								<a class="fancybox" rel="group" href="images/gallery/27.jpg"><img src="images/gallery/27.jpg" alt="" /></a>
+								<a class="fancybox" rel="group" href="images/gallery/28.jpg"><img src="images/gallery/28.jpg" alt="" /></a>
+								<a class="fancybox" rel="group" href="images/gallery/29.jpg"><img src="images/gallery/29.jpg" alt="" /></a>
+								<a class="fancybox" rel="group" href="images/gallery/30.jpg"><img src="images/gallery/30.jpg" alt="" /></a>
 
 							</div>
 						</article>
@@ -203,40 +255,6 @@
 	
 
 	<!-- JQUERY -->
-	<script src="js/jquery-1.11.3.min.js"></script>
-
-	<!-- EASING -->
-	<script src="js/jquery.easing.min.js"></script>
-
-	<!-- BOOTSTRAP -->
-	<script src="js/bootstrap.min.js"></script>
-
-	<!-- MIXITUP -->
-	<script src="js/jquery.mixitup.min.js"></script>
-
-	<!-- MAGNIFIC JS -->
-	<script src="assets/js/magnific/jquery.magnific-popup.min.js"></script>
-
-	<!-- OWL CAROUSEL -->
-	<script src="js/owl.carousel.js"></script>
-
-	<!-- COUNER-UP JS -->
-	<script src="js/waypoints.min.js"></script>
-	<script src="js/waypoint.js"></script>
-	<script src="assets/js/counter-up/jquery.counterup.min.js"></script>
-	
-	<!-- REVOLUTION JS FILES -->
-	<script src="assets/js/revolution/jquery.themepunch.tools.min.js"></script>
-	<script src="assets/js/revolution/jquery.themepunch.revolution.min.js"></script>
-	<script type="text/javascript" src="assets/js/revolution/extensions/revolution.extension.slideanims.min.js"></script>
-	<script type="text/javascript" src="assets/js/revolution/extensions/revolution.extension.layeranimation.min.js"></script>
-	<script type="text/javascript" src="assets/js/revolution/extensions/revolution.extension.navigation.min.js"></script>
-	<script type="text/javascript" src="assets/js/revolution/extensions/revolution.extension.video.min.js"></script>
-	<script type="text/javascript" src="assets/js/revolution/extensions/revolution.extension.actions.min.js"></script>
-	<script type="text/javascript" src="assets/js/revolution/extensions/revolution.extension.kenburn.min.js"></script>
-	<script type="text/javascript" src="assets/js/revolution/extensions/revolution.extension.migration.min.js"></script>
-	<script type="text/javascript" src="assets/js/revolution/extensions/revolution.extension.parallax.min.js"></script>
-	<script type="text/javascript" src="assets/js/revolution/extensions/revolution.extension.carousel.min.js"></script>
 
 	<!-- CUSTOM JS -->
 	<script src="js/custom.js"></script>

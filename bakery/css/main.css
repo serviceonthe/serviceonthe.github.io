@@ -78,6 +78,16 @@ body {
     font-size: 14px;
     font-weight: 400;
 }
+a.fancybox {
+    width: 22% !important;
+    display: inline-block;
+    margin: 1%;
+    border: 1px solid #eee;
+    padding: 10px;
+}
+.fancybox img{
+	width: 100%;
+}
 h1,
 h2,
 h3,
@@ -1280,7 +1290,7 @@ ul {
 }
 .form-control.bg-gray,
 textarea.bg-gray {
-	background: #f4f4f4;
+	background: rgba(230, 168, 76, 0.12);
 	border: 0;
 	font-size: 14px;
 }
@@ -1295,7 +1305,7 @@ textarea.bg-gray {
 }
 .widget .widget-title h6 {
 	font-family: "Merriweather", serif;
-	font-size: 16px;
+	font-size: 24px;
 	line-height: 36px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -1393,12 +1403,14 @@ textarea.bg-gray {
 
 /*************** 12.3 CATAGORIES WIDGET ***************/
 .widget_categories .cat-item { 
-	background: rgba(238, 238, 238, 0.55);
+	background: rgba(230, 168, 76, 0.12);
     margin: 5px 0;
+    color: #333;
 }
 .widget_categories .cat-item:hover { 
 	background: #e6a84c;
-	color: #222;
+	color: #333;
+	width: 100%;
 }
 
 .widget_categories .cat-item a {
@@ -1412,7 +1424,8 @@ textarea.bg-gray {
 	transition: color .3s;
 }
 .widget_categories .cat-item a:hover {
-	color: #222;
+	color: #333;
+	width: 100%;
 }
 
 /*************** 13.0 TESTIMONIAL ***************/
@@ -1543,7 +1556,7 @@ textarea.bg-gray {
 }
 .contact .section-header::after {
 	content: url('../images/title-shape-white.png');
-	top: 80px;
+	top: 50px;
 }
 .contact p {
     color: #fefefe;
@@ -1581,6 +1594,9 @@ textarea.bg-gray {
 	padding: 10px;
 	margin: 5px 0;
 }
+.catditailes:hover{
+	background: rgba(230, 168, 76, 0.12);
+}
 .catditailes ul{
 	list-style: none;
 }
@@ -1614,6 +1630,6 @@ textarea.bg-gray {
 }
 .navbar-brand img {
 	width: 10%;
-    padding: 11px 0 0 0;
+    padding: 0;
     margin: 0;
 }
