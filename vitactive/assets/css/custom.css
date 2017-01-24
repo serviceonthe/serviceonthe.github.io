@@ -2889,6 +2889,7 @@
 		letter-spacing: 1px;
 		font-weight: 700;
 		color: inherit;
+
 	}
 	
 	.widget-calendar table th, 
@@ -2990,6 +2991,7 @@
 		position: relative;
 		padding-left: 30px;
 		margin-bottom: 15px;
+		color: #888;
 	}
 	
 	.widget-contact ul li:last-child {

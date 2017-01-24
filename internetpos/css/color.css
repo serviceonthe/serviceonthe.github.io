@@ -39,6 +39,8 @@
 }
 .orange{
 	background:#fdb902;
+	font-weight: 600;
+    border: none;
 }
 .button.orange:hover{
 	background:#F0A602;
@@ -54,9 +56,25 @@
 .blue:after,
 .blue:before{
 	background:#3db39e;
+	width: 100%;
+	font-weight: 600;
+    border: none;
 }
 .button.blue:hover{
 	background:#2EAA91;
+}
+.blue-color2 h2,
+.blue-color2 h2 small{
+	color:#3db39e;
+}
+.blue2,
+.blue2:after,
+.blue2:before{
+	background:#3db39e;
+}
+.button.blue2:hover{
+	background:#2EAA91;
+	color: #fff;
 }
 
 .dark-blue-color h2,
@@ -72,6 +90,7 @@
 .button.dark-blue:hover{
 	background:#269dd6;
 }
+
 
 .section-head h3{
 	color:#252525;

@@ -634,8 +634,10 @@
 	
 	#footer {
 		padding: 80px 0;
-		background-color: #2a2b2a;
-		color: #d1d1d1;
+	    background-color: rgba(239, 239, 239, 0.31);
+	    color: #d1d1d1;
+	    border-top: 1px solid #eee;
+	}
 	}
 	
 	#footer a {
@@ -661,10 +663,11 @@
 	
 	#footer .widget-title {
 		font-size: 18px;
-		font-weight: 500;
-		letter-spacing: 0.25px;
-		text-transform: none;
-		margin: 30px 0 65px;
+    font-weight: bold;
+    letter-spacing: 0.25px;
+    text-transform: uppercase;
+    margin: 30px 0 65px;
+    color: #555;
 	}
 	
 	#footer .widget-tags a:hover {
@@ -695,9 +698,10 @@
  ***********************************************************************************/
 	
 	#footer-bottom {
-		padding: 15px 0;
-		background-color: #202020;
-		color: #d1d1d1;
+		padding: 5px 0;
+		background-color: rgba(238, 238, 238, 0.73)
+		color: #ddd;
+		border-top: 1px solid #eee;
 	}
 	
 	#footer-bottom a {

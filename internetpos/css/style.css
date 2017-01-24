@@ -809,6 +809,8 @@ label {
 .checkout{
 	background: #31b0d5;
 	color: #222;
+	font-weight: 600;
+    border: none;
 }
 .checkout:hover{
 	background: #269abc;
