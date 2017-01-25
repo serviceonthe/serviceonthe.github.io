@@ -136,7 +136,7 @@ a, a:visited {
 	font-family: 'Lora', serif;
 	font-weight: normal;
 	font-size: 1rem;
-	color: #111;
+	color: #42a147;
 	transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -144,7 +144,7 @@ a, a:visited {
 	outline: 0;
 }
 a:hover, a:active, a:focus {
-	color: #dbc96c;
+	color: #163d20;
 	text-decoration: none;
 	outline: 0;
 }
