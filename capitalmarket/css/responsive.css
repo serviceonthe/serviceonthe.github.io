@@ -1,12 +1,6 @@
 /* Medium Layout: 1280px. */
-@media only screen and (min-width: 992px) and (max-width: 1200px) { 
-  
-    
-}
-/* Tablet Layout: 768px. */
-@media only screen and (min-width: 768px) and (max-width: 1024px) { 
-
-	/* Top Header Area */
+@media only screen and (min-width: 801px) and (max-width: 1200px) { 
+  /* Top Header Area */
 	.navbar-header {
 		float: none;
 		text-align: center;
@@ -25,7 +19,7 @@
     .navbar-collapse.collapse {
         display: none!important;
         border: 0px;
-		background: #292929;
+		background: #265b2f;
     }
     .navbar-collapse.collapse.in { 
         display: block!important;
@@ -55,6 +49,12 @@
 		font-size: 1.30rem;
 	}
 
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 800px) { 
+
+	
 }
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
@@ -95,8 +95,8 @@
     z-index: 1000;
     animation: slideMenu 2s linear;
     top: 0px;
-    width: 72.4%;
-}
+    width: 76%;
+	}
 	/* Carousel Area */
 	.hero-slider .item .item-caption {
 		width: 80%;
@@ -167,13 +167,53 @@
 		float: none;
 		margin: 15px auto;
 	}
+	a.fancybox {
+	width: 22.65% !important;
+	display: inline-block;
+	margin: 1%;
+	border: 1px solid #eee;
+	}
+	.fancybox img{
+		width: 100%;
+	}
 }
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 481px) and (max-width: 767px) { 
 	
+	.fixed-header {
+    position: fixed;
+    z-index: 1000;
+    animation: slideMenu 2s linear;
+    top: 0px;
+    width: 76%;
+	}
+	a.fancybox {
+	width: 30.60% !important;
+	display: inline-block;
+	margin: 1%;
+	border: 1px solid #eee;
+	}
+	.fancybox img{
+		width: 100%;
+	}
 }
 
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 240px) and (max-width: 480px) { 
-	
+	.fixed-header {
+    position: fixed;
+    z-index: 1000;
+    animation: slideMenu 2s linear;
+    top: 0px;
+    width: 73.3%;
+}
+	a.fancybox {
+	width: 47% !important;
+	display: inline-block;
+	margin: 1%;
+	border: 1px solid #eee;
+	}
+	.fancybox img{
+		width: 100%;
+	}
 }
