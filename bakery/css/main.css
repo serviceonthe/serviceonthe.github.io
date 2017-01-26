@@ -1302,15 +1302,17 @@ textarea.bg-gray {
 }
 .widget .widget-title {
 	position: relative;
+	background: #e7a94d;
+    padding: 0px 6px;
 }
 .widget .widget-title h6 {
 	font-family: "Merriweather", serif;
-	font-size: 24px;
+	font-size: 23px;
 	line-height: 36px;
-	font-weight: 700;
+	font-weight: 600;
 	text-transform: uppercase;
 	margin-bottom: 60px;
-	color: #2d2d2d;
+	color: #fff;
 }
 .widget .widget-title::after {
 	content: '~';
