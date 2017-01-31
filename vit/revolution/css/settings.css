@@ -1164,7 +1164,7 @@ img.tp-slider-alternative-image	{
 .tp-bullets						{	position:absolute; display:block; z-index:1000; top:0px; left:0px;}
 
 .tp-tab,
-.tp-thumb 						{	cursor: pointer; position:absolute;opacity:0.5;  box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;}
+.tp-thumb 						{  }
 
 .tp-arr-imgholder,
 .tp-videoposter,

@@ -917,11 +917,6 @@ website:    http://www.themepunch.com
 
 /* TABS */
 .gyges .tp-tab { 
-  opacity:1;      
-  padding:10px;
-  box-sizing:border-box;
-  font-family: "Roboto", sans-serif;
-  border-bottom: 1px solid rgba(255,255,255,0.15);
  }
 .gyges .tp-tab-image 
 { 
@@ -948,27 +943,10 @@ website:    http://www.themepunch.com
  position:absolute; }
 .gyges .tp-tab-date
   {
-  display:block;
-  color: rgba(255,255,255,0.25);
-  font-weight:500;
-  font-size:12px;
-  margin-bottom:0px;
   }
 .gyges .tp-tab-title 
 {
-    display:block;  
-    text-align:left;
-    color:#fff;
-    font-size:14px;
-    font-weight:500;
-    text-transform:none;
-    line-height:17px;
 }
-.gyges .tp-tab:hover,
-.gyges .tp-tab.selected {
-  background:rgba(0,0,0,0.5); 
-}
-
 .gyges .tp-tab-mask {
 }
 

@@ -72,7 +72,7 @@ Tags:        agency, blog, bootstrap, corporate, deco interior, gym fitness, mag
 
 body {
 	background-color: #fff;
-	font: 13px/1.8em "Open Sans", sans-serif;
+	font: 14px/1.8em "Open Sans", sans-serif;
 	color: #747474;
 }
 /* Boxed Layout Mode start */
@@ -141,7 +141,7 @@ h1, .h1 {
 	line-height: 44px;
 	margin: 0 0 32px 0;
 	font-family: 'Lato', sans-serif;
-	font-weight: 300 !important;
+	font-weight: bold; !important;
 	/*letter-spacing: -1px;*/
 	text-transform: uppercase;
 }
@@ -150,7 +150,7 @@ h2, .h2 {
 	line-height: 42px;
 	margin: 0 0 30px 0;
 	font-family: 'Lato', sans-serif;
-	font-weight: 300 !important;
+	font-weight: bold; !important;
 	/*letter-spacing: -1px;*/
 	text-transform: uppercase;
 }
@@ -159,7 +159,7 @@ h3, .h3 {
 	letter-spacing: normal;
 	line-height: 30px;
 	font-family: 'Lato', sans-serif;
-	font-weight: 300 !important;
+	font-weight: bold; !important;
 	/*letter-spacing: -1px;*/
 	text-transform: uppercase;
 }
@@ -169,7 +169,7 @@ h4, .h4 {
 	line-height: 27px;
 	margin: 0 0 15px 0;
 	font-family: 'Lato', sans-serif;
-	font-weight: 400 !important;
+	font-weight: 600; !important;
 	text-transform: uppercase;
 }
 h5, .h5 {
@@ -178,7 +178,7 @@ h5, .h5 {
 	line-height: 18px;
 	margin: 0 0 15px 0;
 	font-family: 'Lato', sans-serif;
-	font-weight: 600 !important;
+	font-weight: 600; !important;
 	text-transform: uppercase;
 }
 h6, .h6 {
@@ -187,7 +187,7 @@ h6, .h6 {
 	line-height: 18px;
 	margin: 0 0 15px 0;
 	font-family: 'Lato', sans-serif;
-	font-weight: 400 !important;
+	font-weight: bold; !important;
 	text-transform: uppercase;
 }
 h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
@@ -1149,8 +1149,8 @@ ul.project-details {
 	height: 100%;
 }
 .content-2-8 .subcontent {
-	padding-top: 80px;
-	padding-bottom: 60px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 .content-2-8 h1 {
 	font-size: 50px;
@@ -2659,7 +2659,7 @@ i.fa:hover { /*top:-5px; */
 	background-color: #91AA9D !important;
 }
 .bg-moonlight {
-	background-color: #3E606F !important;
+	background-color: #49a941 !important;
 }
 .bg-deepocean {
 	background-color: #193441 !important;

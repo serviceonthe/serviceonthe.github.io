@@ -22,7 +22,7 @@ Tags:        agency, blog, bootstrap, corporate, deco interior, gym fitness, mag
  * Navbar Styles start
  * ====================================================================================================================*/
 
-.navbar-brand { padding: 21px 15px 15px;}
+.navbar-brand { padding: 3px 0;}
 
 /* navbar start */
 /* --------------------------------------------------------------------- */
@@ -42,8 +42,8 @@ Tags:        agency, blog, bootstrap, corporate, deco interior, gym fitness, mag
       border-radius:0px;
 }
 .navbar-default .navbar-nav > li > a {
-      height: 87px;
-      padding-top: 45px;
+      height: 75px;
+      padding-top: 40px;
 	  text-transform: uppercase;
 	  font-family: "Open Sans",Arial,sans-serif;
 	  font-size:12px;
