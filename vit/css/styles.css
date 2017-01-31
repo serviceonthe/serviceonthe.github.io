@@ -399,7 +399,7 @@ blockquote.bubble-light p {
 	border-radius: 0px;
 }
 .btn-success:hover {
-	background: #222;
+	background: #49a941;
 }
 .btn-info {
 	background: #04519b;
@@ -3030,4 +3030,8 @@ ul.dropdown-cart li .item-right button{
 
 .logo img{
 	width: 216px;
+}
+
+.brin{
+	padding-top: 130px;
 }
