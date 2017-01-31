@@ -117,7 +117,10 @@ Tags:        agency, blog, bootstrap, corporate, deco interior, gym fitness, mag
 	color: #69767F;
 	font-family: 'Open Sans', sans-serif;
 }
-.footer a { font-size: 11px; color: #69767F;}
+.footer a { font-size: 11px; color: #8dc549;}
+
+.footer a:hover { font-size: 12px; color: #49a941;}
+
 .footer .container {padding-top: 10px;}
 .footer .nav > li > a:hover, 
 .footer .nav > li > a:focus {
