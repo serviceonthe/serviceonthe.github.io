@@ -42,7 +42,7 @@ Tags:        agency, blog, bootstrap, corporate, deco interior, gym fitness, mag
 .mainbottom .bottom-box4 {margin-top: 30px; margin-bottom: 30px;}
 
 .mainbottom .container p, 
-.mainbottom .container address {color: #69767F;}
+.mainbottom .container address {color: #69767F; padding: 0; margin: 0; }
 
 .mainbottom .container a:hover { color: #A3B5C2; text-decoration: none;}
 
