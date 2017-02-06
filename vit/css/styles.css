@@ -264,7 +264,6 @@ p.drop-caps.secundary:first-child:first-letter {
 	border-radius: 0px;
 	-moz-border-radius: 0px;
 	-webkit-border-radius: 0px;
-	background: #31353D;
 	color: #999;
 }
 .panel-dark img {
@@ -1078,7 +1077,7 @@ ul.project-details {
 	display: inline-block;
 }
 .latest-news li a {
-	line-height: 24px;
+	line-height: 12px;
 }
 .latest-news li a span {
 	color: #69767F;
@@ -3029,10 +3028,13 @@ ul.dropdown-cart li .item-right button{
 
 
 .logo img{
-	width: 216px;
+	width: 222px;
 }
 
 .brin{
 	padding-top: 130px;
 }
 
+.blog p {
+	font-size: 13px;
+}
