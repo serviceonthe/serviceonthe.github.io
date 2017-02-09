@@ -201,7 +201,7 @@ header {
 .subheader4 { background: url(../images/textures/texture08.png) center top repeat; margin: 0px; padding: 0px;}
 .subheader4 .container { background: transparent; height: 140px; }
 
-.custom-page-header { border-bottom: none; margin: 120px 0 0px; padding: 0px;}
+.custom-page-header { border-bottom: none; margin: 90px 0 0px; padding: 0px;}
 .custom-page-header h1 { color: #ffffff; font-size: 24px; text-transform: uppercase; background: rgba(0, 0, 0, 0.6); display: inline; padding:3px 10px; moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
 .custom-page-header h1 small { color: #fff; text-transform: none; padding-left: 10px;}
 /* --------------------------------------------------------------------- */
