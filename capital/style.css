@@ -2892,3 +2892,35 @@ a.fancybox {
     border: 1px solid #eee;
     padding: 10px;
 }
+.title-container{
+  text-align: left;
+  padding-left: 5%;
+}
+.countdown {
+    position: absolute;
+    z-index: 9;
+    color: #fff;
+    right: 5%;
+    top: 33%;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+}
+.countdown h1 {
+    text-align: center;
+}
+.countdown .fa {
+    font-size: 80px;
+    text-align: center;
+}
+.countdown .fa span {
+    position: absolute;
+    left: 42%;
+    font-size: 40px;
+    font-weight: bold;
+    top: 22%;
+    color: #0cc7fe;
+}
+.countdown.mas{
+    color: #0cc7fe !important;
+
+}
