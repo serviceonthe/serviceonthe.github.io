@@ -1,0 +1,336 @@
+/**************************************************
+
+Template Name: Kreasi - Creative Portfolio HTML Template
+Author: Hidra
+Version: 1.0
+Design and Developed by: Hidra
+
+NOTE: This is stylesheet of the theme color.
+
+**************************************************/
+
+
+/*================================================
+            Table of contents  
+==================================================
+ 
+1.	Red Style
+2.	Sky Blue
+3.	Green Style
+4.	Pink Style
+5.  Brown Style
+
+====================================================
+            End table content 
+===================================================*/
+
+
+
+
+/* ========== Red Style ==========
+class name      : .red-style 
+main color      : #E94417  
+secondary color : #D73A0F  
+============================ */ 
+
+.red-style .btn-primary:hover, 
+.red-style .btn-primary:focus, 
+.red-style .btn-primary:active, 
+.red-style .btn-primary.active, 
+.red-style .open .dropdown-toggle.btn-primary 
+{ background-color: #E94417; }
+
+.red-style .testimonial blockquote small { color: #E94417 }
+.red-style nav ul.nav-menu {border-bottom: 1px solid #E94417 }
+.red-style nav ul.nav-menu li a:hover,
+.red-style section .btn:hover, 
+.red-style #image-gallery  .btn-default:hover, 
+.red-style #image-gallery  .btn-default:focus,
+.red-style section .btn:hover,
+.red-style .style-btn-class  {background: #E94417}
+.red-style nav .mobile-view-menu #menu-btn,
+.red-style section.content.blog-content .list-blog .left-blog-content .blog-dvk .blog-read-more a:hover,
+.red-style section.content.resume-content .wrap-experience .exp-list:hover .exp-img-logo .logo-company,
+.red-style section.content.portfolio-content ul.filter-portfolio li a:hover {color: #E94417}
+.red-style section.content.skills-content .outer-skill-bar .skill-bar {background-color: #E94417;}
+
+.red-style .font-theme,
+.red-style .sidebar-network .sn-icon a,
+.red-style section .title-tab ,
+.red-style section.content.blog-content .list-blog .right-blog-content .title-blog,
+.red-style address a:hover ,
+.red-style section.content.contact-content  label,
+.red-style section.content.skills-content .technology-i-use .skill-technology, 
+.red-style section.content.resume-content .wrap-experience .exp-list .exp-date div h4 {color:  #D73A0F}
+
+.red-style a#enter-mobile {background-color: #E94417; color: #ffffff}
+
+.red-style .sidebar-network .sn-icon a:hover ,
+.red-style section .btn,
+.red-style section.content.portfolio-content ul.filter-portfolio li a,
+.red-style section.content.portfolio-content .see-more-portfolio,
+.red-style a#enter-mobile:hover  {background:  #D73A0F}
+.red-style .sidebar-network .sn-icon:nth-child(1) {border-left: 0px solid  #D73A0F}
+.red-style section.content.contact-content .form-control:focus,
+.red-style section.content.contact-content legend { border-color:  #D73A0F; }
+.red-style section .btn {background:  #D73A0F; color: #ffffff; border: 0px solid #ffffff;} 
+
+.red-style section.content.contact-content .form-control:focus { box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(185, 9, 9, 0.6);}
+
+.red-style section.content.blog-content .list-blog .left-blog-content {  background: rgba(233, 68, 23, 0.7);}
+.red-style .sidebar-network .sn-icon a:hover, .red-style section.content.portfolio-content ul.filter-portfolio li a {color: #ffffff}
+.red-style section.content.portfolio-content ul.filter-portfolio li a:hover {background:  #E94417; color: #ffffff}
+.red-style section.content.portfolio-content .gallery-portfolio .portfolio-box.portfolio-hidden {background: transparent;}
+.red-style nav ul.nav-menu li a.page-active ,
+.red-style nav ul.nav-menu li a:hover { border-bottom: 3px solid #E94417; }
+
+
+
+
+
+/* ========== Sky Blue ==========
+class name      : .sky-blue 
+main color      : #4BE9EF  
+secondary color : #25A2A7  
+=============================== */ 
+
+.sky-blue .btn-primary:hover, 
+.sky-blue .btn-primary:focus, 
+.sky-blue .btn-primary:active, 
+.sky-blue .btn-primary.active, 
+.sky-blue .open .dropdown-toggle.btn-primary 
+{ background-color: #4BE9EF; }
+
+.sky-blue .testimonial blockquote small { color: #4BE9EF }
+.sky-blue nav ul.nav-menu {border-bottom: 1px solid #4BE9EF }
+.sky-blue nav ul.nav-menu li a:hover,
+.sky-blue section .btn:hover, 
+.sky-blue #image-gallery  .btn-default:hover, 
+.sky-blue #image-gallery  .btn-default:focus,
+.sky-blue section .btn:hover,
+.sky-blue .style-btn-class  {background: #25A2A7}
+.sky-blue nav .mobile-view-menu #menu-btn,
+.sky-blue section.content.blog-content .list-blog .left-blog-content .blog-dvk .blog-read-more a:hover,
+.sky-blue section.content.resume-content .wrap-experience .exp-list:hover .exp-img-logo .logo-company,
+.sky-blue section.content.portfolio-content ul.filter-portfolio li a:hover {color: #25A2A7}
+.sky-blue section.content.skills-content .outer-skill-bar .skill-bar {background-color: #25A2A7;}
+
+.sky-blue .font-theme,
+.sky-blue .sidebar-network .sn-icon a,
+.sky-blue section .title-tab ,
+.sky-blue section.content.blog-content .list-blog .right-blog-content .title-blog,
+.sky-blue address a:hover ,
+.sky-blue section.content.contact-content  label,
+.sky-blue section.content.skills-content .technology-i-use .skill-technology,
+.sky-blue section.content.resume-content .wrap-experience .exp-list .exp-date div h4 {color:  #4BE9EF}
+
+.sky-blue a#enter-mobile {background-color: #25A2A7; color: #ffffff}
+
+.sky-blue .sidebar-network .sn-icon a:hover ,
+.sky-blue section .btn,
+.sky-blue section.content.portfolio-content ul.filter-portfolio li a,
+.sky-blue section.content.portfolio-content .see-more-portfolio,
+.sky-blue a#enter-mobile:hover  {background:  #4BE9EF}
+.sky-blue .sidebar-network .sn-icon:nth-child(1) {border-left: 0px solid  #4BE9EF}
+.sky-blue section.content.contact-content .form-control:focus,
+.sky-blue section.content.contact-content legend { border-color:  #4BE9EF; }
+.sky-blue section .btn {background:  #4BE9EF; color: #242424; border: 0px solid #ffffff;} 
+.sky-blue section .btn:hover {color: #ffffff}
+
+.sky-blue section.content.contact-content .form-control:focus { box-shadow: 0px 1px 1px rgba(56, 216, 222, 0.54) inset, 0px 0px 8px rgba(56, 216, 222, 0.54);}
+
+.sky-blue section.content.blog-content .list-blog .left-blog-content {background: rgba(56, 216, 222, 0.54);}
+.sky-blue .sidebar-network .sn-icon a:hover, 
+.sky-blue section.content.portfolio-content ul.filter-portfolio li a {color: #ffffff}
+.sky-blue section.content.portfolio-content ul.filter-portfolio li a:hover {background:  #25A2A7; color: #ffffff}
+.sky-blue section.content.portfolio-content .gallery-portfolio .portfolio-box.portfolio-hidden {background: transparent;}
+.sky-blue nav ul.nav-menu li a.page-active,
+.sky-blue nav ul.nav-menu li a:hover { border-bottom: 3px solid #25A2A7; }
+
+
+
+
+
+/* ========== Green Style ==========
+class name      : .green-style 
+main color      : #0EF673 
+secondary color : #0A9C49  
+=============================== */ 
+
+.green-style .btn-primary:hover, 
+.green-style .btn-primary:focus, 
+.green-style .btn-primary:active, 
+.green-style .btn-primary.active, 
+.green-style .open .dropdown-toggle.btn-primary 
+{ background-color: #0EF673; }
+
+.green-style .testimonial blockquote small { color: #0EF673 }
+.green-style nav ul.nav-menu {border-bottom: 1px solid #0EF673 }
+.green-style nav ul.nav-menu li a:hover,
+.green-style section .btn:hover, 
+.green-style #image-gallery  .btn-default:hover, 
+.green-style #image-gallery  .btn-default:focus,
+.green-style section .btn:hover,
+.green-style .style-btn-class  {background: #0A9C49}
+.green-style nav .mobile-view-menu #menu-btn,
+.green-style section.content.blog-content .list-blog .left-blog-content .blog-dvk .blog-read-more a:hover,
+.green-style section.content.resume-content .wrap-experience .exp-list:hover .exp-img-logo .logo-company,
+.green-style section.content.portfolio-content ul.filter-portfolio li a:hover {color: #0A9C49}
+.green-style section.content.skills-content .outer-skill-bar .skill-bar {background-color: #0A9C49;}
+
+.green-style .font-theme,
+.green-style .sidebar-network .sn-icon a,
+.green-style section .title-tab ,
+.green-style section.content.blog-content .list-blog .right-blog-content .title-blog,
+.green-style address a:hover ,
+.green-style section.content.contact-content  label,
+.green-style section.content.skills-content .technology-i-use .skill-technology,
+.green-style section.content.resume-content .wrap-experience .exp-list .exp-date div h4 {color:  #0EF673}
+
+.green-style a#enter-mobile {background-color: #0A9C49; color: #ffffff}
+
+.green-style .sidebar-network .sn-icon a:hover ,
+.green-style section .btn,
+.green-style section.content.portfolio-content ul.filter-portfolio li a,
+.green-style section.content.portfolio-content .see-more-portfolio,
+.green-style a#enter-mobile:hover  {background:  #0EF673}
+.green-style .sidebar-network .sn-icon:nth-child(1) {border-left: 0px solid  #0EF673}
+.green-style section.content.contact-content .form-control:focus,
+.green-style section.content.contact-content legend { border-color:  #0EF673; }
+.green-style section .btn {background:  #0EF673; color: #242424; border: 0px solid #ffffff;} 
+ .green-style section .btn:hover { color: #ffffff}
+
+.green-style section.content.contact-content .form-control:focus { box-shadow: 0px 1px 1px rgba(14, 246, 115, 0.6) inset, 0px 0px 8px rgba(14, 246, 115, 0.6);}
+
+.green-style section.content.blog-content .list-blog .left-blog-content {  background:rgba(14, 246, 115, 0.6) ; }
+.green-style .sidebar-network .sn-icon a:hover, 
+.green-style section.content.portfolio-content ul.filter-portfolio li a {color: #ffffff}
+.green-style section.content.portfolio-content ul.filter-portfolio li a:hover {background:  #0A9C49; color: #ffffff}
+.green-style section.content.portfolio-content .gallery-portfolio .portfolio-box.portfolio-hidden {background: transparent;}
+.green-style nav ul.nav-menu li a.page-active,
+.green-style nav ul.nav-menu li a:hover { border-bottom: 3px solid #0A9C49; }
+
+
+
+
+
+/* ========== Pink Style ==========
+class name      : .pink-style 
+main color      : #FF0087 
+secondary color : #BD0F6B  
+=============================== */ 
+
+.pink-style .btn-primary:hover, 
+.pink-style .btn-primary:focus, 
+.pink-style .btn-primary:active, 
+.pink-style .btn-primary.active, 
+.pink-style .open .dropdown-toggle.btn-primary 
+{ background-color: #FF0087; }
+
+.pink-style .testimonial blockquote small { color: #FF0087 }
+.pink-style nav ul.nav-menu {border-bottom: 1px solid #FF0087 }
+.pink-style nav ul.nav-menu li a:hover,
+.pink-style section .btn:hover, 
+.pink-style #image-gallery  .btn-default:hover, 
+.pink-style #image-gallery  .btn-default:focus,
+.pink-style section .btn:hover,
+.pink-style .style-btn-class  {background: #BD0F6B}
+.pink-style nav .mobile-view-menu #menu-btn,
+.pink-style section.content.blog-content .list-blog .left-blog-content .blog-dvk .blog-read-more a:hover,
+.pink-style section.content.resume-content .wrap-experience .exp-list:hover .exp-img-logo .logo-company,
+.pink-style section.content.portfolio-content ul.filter-portfolio li a:hover {color: #BD0F6B}
+.pink-style section.content.skills-content .outer-skill-bar .skill-bar {background-color: #BD0F6B;}
+
+.pink-style .font-theme,
+.pink-style .sidebar-network .sn-icon a,
+.pink-style section .title-tab ,
+.pink-style section.content.blog-content .list-blog .right-blog-content .title-blog,
+.pink-style address a:hover ,
+.pink-style section.content.contact-content  label,
+.pink-style section.content.skills-content .technology-i-use .skill-technology,
+.pink-style section.content.resume-content .wrap-experience .exp-list .exp-date div h4 {color:  #FF0087}
+
+.pink-style a#enter-mobile {background-color: #BD0F6B; color: #ffffff}
+
+.pink-style .sidebar-network .sn-icon a:hover ,
+.pink-style section .btn,
+.pink-style section.content.portfolio-content ul.filter-portfolio li a,
+.pink-style section.content.portfolio-content .see-more-portfolio,
+.pink-style a#enter-mobile:hover  {background:  #FF0087}
+.pink-style .sidebar-network .sn-icon:nth-child(1) {border-left: 0px solid  #FF0087}
+.pink-style section.content.contact-content .form-control:focus,
+.pink-style section.content.contact-content legend { border-color:  #FF0087; }
+.pink-style section .btn {background:  #FF0087; color: #ffffff; border: 0px solid #ffffff;} 
+
+.pink-style section.content.contact-content .form-control:focus { box-shadow: 0px 1px 1px rgba(189, 15, 107, 0.72) inset, 0px 0px 8px rgba(189, 15, 107, 0.72);}
+
+.pink-style section.content.blog-content .list-blog .left-blog-content { background: rgba(189, 15, 107, 0.72); }
+.pink-style .sidebar-network .sn-icon a:hover, 
+.pink-style section.content.portfolio-content ul.filter-portfolio li a {color: #ffffff}
+.pink-style section.content.portfolio-content ul.filter-portfolio li a:hover {background:  #BD0F6B; color: #ffffff}
+.pink-style section.content.portfolio-content .gallery-portfolio .portfolio-box.portfolio-hidden {background: transparent;}
+.pink-style nav ul.nav-menu li a.page-active,
+.pink-style nav ul.nav-menu li a:hover { border-bottom: 3px solid #BD0F6B; }
+
+
+
+
+
+/* ========== Brown Style ==========
+class name      : .brown-style 
+main color      : #C59542 
+secondary color : #9F701F  
+=============================== */ 
+
+.brown-style .btn-primary:hover, 
+.brown-style .btn-primary:focus, 
+.brown-style .btn-primary:active, 
+.brown-style .btn-primary.active, 
+.brown-style .open .dropdown-toggle.btn-primary 
+{ background-color: #C59542; }
+
+.brown-style .testimonial blockquote small { color: #C59542 }
+.brown-style nav ul.nav-menu {border-bottom: 1px solid #C59542 }
+.brown-style nav ul.nav-menu li a:hover,
+.brown-style section .btn:hover, 
+.brown-style #image-gallery  .btn-default:hover, 
+.brown-style #image-gallery  .btn-default:focus,
+.brown-style section .btn:hover,
+.brown-style .style-btn-class  {background: #9F701F}
+.brown-style nav .mobile-view-menu #menu-btn,
+.brown-style section.content.blog-content .list-blog .left-blog-content .blog-dvk .blog-read-more a:hover,
+.brown-style section.content.resume-content .wrap-experience .exp-list:hover .exp-img-logo .logo-company,
+.brown-style section.content.portfolio-content ul.filter-portfolio li a:hover {color: #9F701F}
+.brown-style section.content.skills-content .outer-skill-bar .skill-bar {background-color: #9F701F;}
+
+.brown-style .font-theme,
+.brown-style .sidebar-network .sn-icon a,
+.brown-style section .title-tab ,
+.brown-style section.content.blog-content .list-blog .right-blog-content .title-blog,
+.brown-style address a:hover ,
+.brown-style section.content.contact-content  label,
+.brown-style section.content.skills-content .technology-i-use .skill-technology,
+.brown-style section.content.resume-content .wrap-experience .exp-list .exp-date div h4 {color:  #C59542}
+
+.brown-style a#enter-mobile {background-color: #9F701F; color: #ffffff}
+
+.brown-style .sidebar-network .sn-icon a:hover ,
+.brown-style section .btn,
+.brown-style section.content.portfolio-content ul.filter-portfolio li a,
+.brown-style section.content.portfolio-content .see-more-portfolio,
+.brown-style a#enter-mobile:hover  {background:  #C59542}
+.brown-style .sidebar-network .sn-icon:nth-child(1) {border-left: 0px solid  #C59542}
+.brown-style section.content.contact-content .form-control:focus,
+.brown-style section.content.contact-content legend { border-color:  #C59542; }
+.brown-style section .btn {background:  #C59542; color: #242424; border: 0px solid #ffffff;} 
+.brown-style section .btn:hover {color: #ffffff}
+
+.brown-style section.content.contact-content .form-control:focus { box-shadow: 0px 1px 1px rgba(197, 149, 66, 0.74) inset, 0px 0px 8px rgba(197, 149, 66, 0.74);}
+
+.brown-style section.content.blog-content .list-blog .left-blog-content {background: rgba(197, 149, 66, 0.74);}
+.brown-style .sidebar-network .sn-icon a:hover, 
+.brown-style section.content.portfolio-content ul.filter-portfolio li a {color: #ffffff}
+.brown-style section.content.portfolio-content ul.filter-portfolio li a:hover {background:  #9F701F; color: #ffffff}
+.brown-style section.content.portfolio-content .gallery-portfolio .portfolio-box.portfolio-hidden {background: transparent;}
+.brown-style nav ul.nav-menu li a.page-active,
+.brown-style nav ul.nav-menu li a:hover { border-bottom: 3px solid #9F701F; }

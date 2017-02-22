@@ -1,0 +1,595 @@
+/**************************************************
+
+Template Name: Kreasi - Creative Portfolio HTML Template
+Author: Hidra
+Version: 1.0
+Design and Developed by: Hidra
+
+NOTE: This is additional stylesheet for mediaquery.
+
+**************************************************/
+
+
+
+/*================================================
+            Table of contents  
+==================================================
+ 
+1.  @media screen and (min-width: 1600px)
+2.  @media screen and (min-width: 981px) and (max-width: 1280px)   
+3.  @media screen and (min-width: 769px) and (max-width: 1280px) 
+4.  @media screen and (max-width: 1200px)
+5.  @media screen and (min-width: 768px) and (max-width: 1200px)
+6.  @media screen and (max-width: 1080px)
+7.  @media screen and (max-width: 1023px)
+8.  @media screen and (min-width: 768px) and (max-width: 1023px)
+9.  @media screen and (max-width: 991px) 
+10. @media screen and (min-width: 768px) and (max-width: 980px)
+11. @media screen and (min-width: 768px)
+12. @media screen and (max-width: 768px)
+13. @media screen and (max-width: 767px)
+14. @media screen and (min-width: 320px) and (max-width: 480px)
+15. @media screen and (min-width: 270px) and (max-width: 320px)
+
+====================================================
+            End table content 
+===================================================*/
+
+
+
+
+/*==================================================
+   @media screen and (min-width: 1600px)
+==================================================*/
+@media screen and (min-width: 1600px) {
+    .main-wrap {
+        border-left: 1px solid #232323;
+        border-right: 1px solid #232323;
+        width: 1366px;
+        margin: 0 auto;
+        position: relative;
+        height: 100vh;
+    }
+    section.background { 
+        position: fixed;
+        left: 0px;
+        width: 100%;
+        z-index: -1;
+    }
+    aside { 
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    section.content {
+        max-width: 1366px;
+    }
+    .main-wrap {
+        width: 1366px; margin: 0 auto;
+    }
+}
+
+
+
+/*==================================================
+   @media screen and (min-width: 981px) and (max-width: 1280px)
+==================================================*/
+@media screen and (min-width: 981px) and (max-width: 1280px) {
+    section.content.portfolio-content .gallery-portfolio .portfolio-box img {
+        width: auto;
+        height: 100%;
+        border: 1px solid #333;
+        border-radius: 5px;
+        padding: 10px;
+    }
+}
+
+
+
+/*==================================================
+   @media screen and (min-width: 769px) and (max-width: 1280px) 
+==================================================*/
+@media screen and (min-width: 769px) and (max-width: 1280px) {
+    section.content.blog-content .list-blog .left-blog-content .blog-dvk .blog-read-more a {
+        margin-top: 0; 
+    }
+    section .title-tab, section.content.resume-content .exp-welcome-text, 
+    section.content.skills-content .welcome-text-skill,
+    section.content.skills-content .technology-i-use .skill-technology,
+    section.content.skills-content .technology-i-use .logo-technology {
+        text-align: center;
+    }
+    section.content.portfolio-content ul.filter-portfolio {
+        float: none;
+        float: unset;
+        margin-bottom: 30px;
+    }
+    section.content .container-content .row.testimonial .col-testimonial {
+        width: 100%;
+    }
+    section.content .container-content .row.testimonial .col-testimonial .carousel-inner .row .col-sm-2 {
+        width: 25%;
+    }
+    section.content .container-content .row.testimonial .col-testimonial .carousel-inner .row .col-sm-10 {
+        width: 75%;
+    }
+    section.content.blog-content .list-blog .left-blog-content .img-blog {
+        width: 100%;
+    }
+    section.content.blog-content .list-blog .left-blog-content .blog-dvk {
+        width: 100%;
+    }
+    section.content.blog-content .list-blog .left-blog-content .blog-dvk .blog-read-more {
+        width: 100%;
+        margin-top: 10px;
+        float: left;
+    }
+    section.content.blog-content .list-blog .left-blog-content .blog-dvk .blog-read-more a {
+        position: unset;
+        position: none;
+        text-align: center;
+        width: 100%;
+    }
+    section.content.blog-content .list-blog .left-blog-content .blog-dvk .blog-date {
+        width: 50%;
+        float: left;
+    }
+    section.content.blog-content .list-blog .left-blog-content .blog-dvk .blog-comment {
+        float: left;
+        width: 50%;
+    }
+}
+
+
+
+/*==================================================
+    @media screen and (max-width: 1200px)
+==================================================*/
+@media screen and (max-width: 1200px) { 
+    section.content .pharagrap {
+        max-width: 100%;
+    }
+    aside .sidebar-content .row.profile-decription {
+        text-align: center;
+    }
+    aside .sidebar-content .row.logo-name .bottom-line {
+        display: none;
+    }
+    nav ul.nav-menu li a {
+        padding: 18px 10px;
+        margin: 0px 0px;
+    }
+    nav {
+        padding: 40px 0px 0px 0px;
+    }
+    section.content {
+        padding: 10px 0px 110px 0px;
+        width: 96%;
+        margin: 0px 2%;
+    }
+    section.content.with-scrollbar {
+        padding: 10px 0px 130px 0px;
+    }
+    section.content .mCSB_inside .mCSB_container {
+        margin-right: 0px;
+    }
+}
+
+
+
+/*==================================================
+  @media screen and (min-width: 768px) and (max-width: 1200px)
+==================================================*/
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    aside {
+        height: 100%;
+        overflow: hidden;
+        width: 30%;
+        position: fixed;
+    }
+    nav {
+        width: 70%;
+        float: right;
+    }
+    section.content {
+        padding: 10px 0px 110px;
+        margin: 0px 1%;
+        width: 68%;
+        right: 0px;
+        top: 120px;
+    }
+    section.content .container-content {
+        padding: 0px 20px 50px;
+    }
+    aside .sidebar-content .row.logo-name {
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    aside .sidebar-content .row.photo-profile .photo-frame {
+        width: 120px;
+        height: 120px;
+        border: 5px solid #111718;
+        margin: 10px auto;
+    }
+    aside .sidebar-content .row.photo-profile .photo-frame img {
+        width: auto !important;
+        height: 100% !important;
+        left: 0px !important;
+    }
+}
+
+
+
+/*==================================================
+    @media screen and (max-width: 1080px)
+==================================================*/
+@media screen and (max-width: 1080px) {
+    section.content.resume-content .wrap-experience .exp-list .exp-info { 
+        margin: 0px 0px 10px;
+    }
+    section.content.skills-content .technology-i-use .col-md-2 {
+        width: 100%;
+    }
+    section.content.skills-content .technology-i-use .col-md-10 {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    section.content.skills-content .technology-i-use ul {
+        padding: 0px;
+    }
+}
+
+
+
+/*==================================================
+    @media screen and (max-width: 1023px)
+==================================================*/
+@media screen and (max-width: 1023px) {
+    section.background {
+        background-size: auto 100%;
+    }
+}
+
+
+
+/*==================================================
+   @media screen and (min-width: 768px) and (max-width: 1023px)
+==================================================*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    section.content.contact-content,
+    section.content.blog-content,
+    section.content.resume-content .wrap-experience {
+        padding-bottom: 300px; 
+    }
+    section.content.blog-content .row .col-md-12.text-center {
+        position: none;
+        position: unset}
+    section .title-tab {
+        text-align: center;
+    }
+    section.content.portfolio-content ul.filter-portfolio {
+        float: none;
+        float: unset;
+        margin-bottom: 20px;
+    }
+    section.content.skills-content .welcome-text-skill,
+    section.content.resume-content .exp-welcome-text, 
+    .technology-i-use .skill-technology,
+    section.content.skills-content .technology-i-use .logo-technology ul {
+        text-align: center;
+    }
+    aside .sidebar-background {
+        background: transparent;
+    }
+    body aside {
+        width: 100%;
+        height: 120px;
+        padding: 10px 0px 0px 0px;
+        background: #000000;
+    }
+    aside .sidebar-network {
+        right: 0px;
+        left: auto;
+        width: 25%;
+    }
+    body nav {
+        width: 100%;
+        padding: 120px 0px 0px;
+    }
+    body section.content {
+        width: 98%;
+        top: 220px;
+    }
+    body section.content.with-scrollbar {
+        padding: 10px 0px 200px;
+    }
+    aside .sidebar-content {
+        width: 75%;
+    }
+    aside .profile-name .row.logo-name {
+        margin-top: 0px !important;
+    }
+    aside .sidebar-content .profile-name .row.photo-profile {
+        margin: 0px 0px;
+    }
+    aside .sidebar-content .container-custom {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    aside .sidebar-content .profile-name {
+        width: 20%;
+        float: left;
+    }
+    aside .sidebar-content .row.profile-decription {
+        width: 80%;
+        float: left;
+    }
+    aside .sidebar-content .row.photo-profile .photo-frame {
+        width: 90px !important;
+        height: 90px !important;
+    }
+    body aside .sidebar-content .row.logo-name {
+        display: none;
+    }
+    aside .sidebar-network .sn-icon {
+        background: transparent;
+    }
+    aside .sidebar-content .row.profile-decription {
+        margin: 40px 0px 0px;
+        padding-left: 10px;
+    }
+    aside .sidebar-network .sn-icon a {
+        padding: 10px;
+    }
+}
+
+
+
+/*==================================================
+   @media screen and (max-width: 991px) 
+==================================================*/
+@media screen and (max-width: 991px) {
+    section.content.resume-content .wrap-experience .exp-list .exp-info {
+        margin: 10px 0px 10px;
+    }
+}
+
+
+
+/*==================================================
+   @media screen and (min-width: 768px) and (max-width: 980px)
+==================================================*/
+@media screen and (min-width: 768px) and (max-width: 980px) {
+    section.content.blog-content .list-blog {
+        width: 49%;
+        float: left;
+        margin: 0 auto 30px;
+        min-height: 560px;
+    }
+     section.content.portfolio-content .gallery-portfolio .portfolio-box img {
+        height: auto;
+        width: 100%;
+    }
+    section.content.portfolio-content .gallery-portfolio .portfolio-box {
+        height: 120px;
+    }
+}
+
+
+
+/*==================================================
+   @media screen and (min-width: 768px)
+==================================================*/
+@media screen and (min-width: 768px) {
+    nav .mobile-view-menu {
+        display: none;
+    }
+    nav ul.nav-menu li a.page-active {
+        border-bottom: 3px solid #00aced;
+    }
+    nav ul.nav-menu li a:hover {
+        background: transparent !important;
+    }
+}
+
+
+
+/*==================================================
+   @media screen and (max-width: 768px)
+==================================================*/
+@media screen and (max-width: 768px) {
+    section.content.blog-content .list-blog .left-blog-content .blog-dvk .blog-read-more {
+        width: 100%;
+        text-align: center;
+        float: left;
+        margin: 20px 0px 10px;
+    }
+    section.content.blog-content .list-blog .left-blog-content .blog-dvk .blog-comment {
+        float: left; width: 50%; text-align: right;
+    }
+    section.content.blog-content .list-blog .left-blog-content .blog-dvk .blog-date {
+        float: left; width: 50%; 
+    }
+    section.content.blog-content .list-blog .left-blog-content .blog-dvk .blog-read-more a { 
+        float: none; float: unset; 
+    }
+    section.content.blog-content .list-blog .left-blog-content .img-blog {
+        width: 100%;
+    }
+    section.content.blog-content .list-blog .left-blog-content .blog-dvk {
+        width: 100%; text-align: left;
+    }
+    nav ul.nav-menu li a {
+        font-size: 12px;
+    }
+    .scrollable-icon.scrollable-arrow.bounce{
+        display: none;
+    }
+}
+
+
+
+/*==================================================
+   @media screen and (max-width: 767px)
+==================================================*/
+@media screen and (max-width: 767px) {
+    nav ul.nav-menu li a:hover,nav ul.nav-menu li a.page-active {
+        border-bottom: 0px solid #ffffff !important ; padding: 10px 10px 10px 20px;
+    }
+    aside .sidebar-content { 
+        padding: 10px 20px;
+    }
+    .style-option-wrap {
+        top:    150px;
+    }
+    aside .sidebar-content .row.photo-profile .photo-frame {
+        margin: 0 auto;
+    }
+     .testimonial .img-testimonial {
+        margin: 0px auto 20px;
+    }
+    .testimonial blockquote {
+        padding: 10px 0px;
+    }
+    .testimonial #quote-carousel {
+        padding: 0px 0px 30px;
+    }
+     aside .sidebar-content .row.logo-name {
+        line-height: 1;
+    }
+     nav .desktop-view-menu .sidebar-network {
+        display: block;
+    }
+    section.content.about-content h1 {
+        font-size: 30px;
+    }
+    a#enter-mobile {
+        display: block;
+        border: 0px solid #FFF;
+        padding: 5px 10px;
+        color: #000;
+        margin: 15px 20px 0px;
+        font-weight: 400;
+    }
+    a#enter-mobile:hover {
+        border: 0px solid #FFF;
+        background: transparent;
+        background: #ffffff;
+    }
+    nav {
+        padding: 30px 0px 0px;
+    }
+    aside .sidebar-content .row.photo-profile .photo-frame {
+        border: 6px solid #111718;
+        width: 150px;
+        height: 150px;
+    }
+    aside .sidebar-content .row.photo-profile .photo-frame img {
+        width: auto !important;
+        height: 100% !important;
+        left: -10px !important;
+    }
+    aside .sidebar-content .row.profile-decriptio {
+        margin: 0px 0px;
+    }
+    nav .mobile-view-menu {
+        height: 60px;
+        background: rgba(0, 0, 0, 0.81) none repeat scroll 0% 0%;
+    }
+    nav .mobile-view-menu .m-name {
+        float: left;
+        color: #FFF;
+        padding: 15px 20px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    nav .mobile-view-menu #menu-btn {
+        width: 50px;
+        height: 50px;
+        font-size: 35px;
+        float: right;
+        cursor: pointer;
+        text-align: center;
+        margin: 5px;
+    }
+    nav .desktop-view-menu {
+        display: none;
+            position: fixed;
+        z-index: 88;
+        width: 100%;
+        background: #000000;
+    }
+    aside {
+        top: 0%;
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+    }
+    aside.upup {
+        top: -100%;
+    }
+    nav ul.nav-menu li {
+        float: none;
+        float: unset;
+    }
+    nav ul.nav-menu li a {
+        text-align: center;
+        float: none;
+        float: unset;
+        display: block;
+        font-weight: 700;
+        padding: 10px 10px 10px 20px;
+    }
+    nav ul.nav-menu li a:hover {
+        border-bottom: 0px solid #FFF;
+    }
+    nav ul.nav-menu {
+        padding: 20px 0px;
+        height: auto;
+        margin-bottom: 0px;
+    }
+    aside .sidebar-content .row.logo-name {
+        margin-top: 30px;
+    }
+    aside {
+        width: 100%;
+        position: fixed;
+        height: 100%;
+        overflow: hidden;
+    }
+    aside .sidebar-background {
+        background: #000;
+    }
+    section.content.portfolio-content ul.filter-portfolio li a {
+        margin: 2px;
+        float: left;
+    }
+    section.content.portfolio-content .see-more-portfolio {
+        margin: 5px 0px;
+    }
+}
+
+
+
+/*==================================================
+  @media screen and (min-width: 320px) and (max-width: 480px)
+==================================================*/
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    section.content.portfolio-content .gallery-portfolio .portfolio-box {
+        height: 90px;
+    }
+}
+
+
+
+/*==================================================
+  @media screen and (min-width: 270px) and (max-width: 320px)
+==================================================*/
+@media screen and (min-width: 270px) and (max-width: 320px) {
+    section.content.portfolio-content .gallery-portfolio .portfolio-box {
+        height: 70px;
+    }
+}
