@@ -3075,3 +3075,38 @@ ul.dropdown-cart li .item-right button{
 .tp-bannertimer{
 	display: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.organiser img{
+	width: 130px;
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.organiser p {
+    color: #aaa;
+    font-size: 18px;
+}
+
+.organiser p span {
+    color: #aaa;
+    font-size: 13px;
+}

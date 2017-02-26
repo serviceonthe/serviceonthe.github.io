@@ -1,0 +1,80 @@
+@media only screen and (max-width: 1199px){
+#slidediv .menu li a, .yamm .navbar-nav > li > a {
+	padding-left:2px;	
+}
+.yamm .custom-menu span {
+	padding-left: 10px !important;
+}
+}
+@media only screen and (max-width: 1000px){
+.navbar-right {
+	float:none !important;
+	margin-top:20px;
+}
+#header-container {
+	padding-top:0 !important;
+}
+}
+@media only screen and (max-width: 960px){
+#header-container {
+	display:block !important;
+	position:relative !important;
+	background:#111;
+}
+}
+@media only screen and (max-width: 768px){
+.footer-menu ul {display:none !important;}
+#copyrights {text-align:center;}
+.title h2 {font-size:26px !important;}
+.portfolio-filter .btn {font-size:12px; padding:4px 6px !important;}
+.magnifier h2 a, .magnifier h3 a {font-size:12px;}
+.overlay.dark-version .title h2 {line-height:2;}
+.two-col-blog .blog-item .col-md-7 {
+	margin-top:20px !important;
+}
+#header-container.affix .yamm .navbar-nav > li > a {
+    padding-bottom: 10px !important;
+    padding-top: 10px !important;
+}
+.navbar-brand img {
+	width:80%;
+	margin-top:10px;
+}
+.yamm .navbar-nav > li > a {
+	padding:12px 20px !important;
+}
+.yamm .yamm-content {
+    padding: 0px 20px !important;
+}
+.navbar-nav > li > .dropdown-menu li {
+	padding:5px !important;
+}
+.yamm-fw .column {
+	padding:0 10px !important
+}
+.navbar-collapse {
+	background:#fff;
+}
+.yamm .dropdown-submenu > .dropdown-menu {
+    left: auto !important;
+    margin-left: 20px !important;
+    margin-top: 20px !important;
+    top: 0;
+    border-top: 0 !important;
+	background:#222 !important;
+}
+}
+@media only screen and (max-width: 400px) {
+	.navbar-brand img {
+		width:80%;
+		margin-top:8px;
+	}
+	.navbar-brand {
+		padding:18px 5px !important;
+	}
+}
+@media only screen and (max-width: 316px) {
+	.navbar-brand {
+		margin-top: -85px;
+	}
+}
