@@ -659,6 +659,15 @@ section.content.resume-content .wrap-experience .exp-list .exp-date {
 section.content.resume-content .wrap-experience .exp-img-logo {
     margin-bottom: 10px;
 }
+section.content.resume-content .wrap-experience .exp-img-logo img {
+    width: 122px;
+    padding: 3px;
+    border: 1px solid #333;
+    border-radius: 2px;
+}
+section.content.resume-content .wrap-experience .exp-txt-logo {
+    font-size: 9px;
+}
 section.content.resume-content .wrap-experience .exp-img-logo .logo-company {
     font-size: 35px;
 }
