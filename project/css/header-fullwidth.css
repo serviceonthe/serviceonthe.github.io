@@ -1,0 +1,123 @@
+*{
+
+}
+.logo {
+
+}
+
+.toolbar {
+      background: #06579e;
+}
+.toolbar a {color:#aaa;}
+.toolbar a:hover {color:#bbb; text-decoration:none;}
+.toolbar .container {
+      height: 25px;
+	  padding-top: 2px; 
+      font-size: 12px; 
+      font-family: Arial,Helvetica,sans-serif; 
+      color: #aaa;
+}
+.toolbar .separator {
+  border-left: 1px solid #777777;
+  display: inline-block;
+  height: 10px;
+  margin: 0 20px;
+  width: 1px;
+}
+
+
+/* header start */
+/* --------------------------------------------------------------------- */
+.header-main {
+      background: #0c67b6;
+}
+.header-main .container {}
+
+/* Sticky Header */
+header {
+    width: 100%;
+    z-index: 100;
+    position: relative;
+    -webkit-transition: linear .3s;
+    -moz-transition: linear .3s;
+    -ms-transition: linear .3s;
+    -o-transition: linear .3s;
+    transition: linear .3s;
+}
+.sticky-for-header {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    -webkit-transition: linear .3s;
+    -moz-transition: linear .3s;
+    -ms-transition: linear .3s;
+    -o-transition: linear .3s;
+    transition: linear .3s;
+    /*border-bottom: 1px solid #C6C4C4; */
+}
+.sticky-for-header .header-main {
+    top: 0;
+	background: #0c67b6;
+  border-bottom: 1px solid #2b7bc0;
+}
+
+.sticky-for-header .headerbar {
+    top: 107px;
+	background: #0c67b6;
+}
+
+.sticky-for-body {
+    margin-top: 0px;
+}
+.toolbar_hidden {
+    display: none !important;
+}
+/* header end */
+/* --------------------------------------------------------------------- */
+
+/* headerbar start */
+/* --------------------------------------------------------------------- */
+.headerbar {
+  background: #0c67b6;
+  border: 1px solid #2b7bc0;
+}
+.headerbar .container { color: #8A8A8A;}
+.headline-bar {
+	  background: #f6f8f8;
+	  border-bottom: 1px solid #ececec;
+      height: 33px;
+}
+.headlines {
+	  color: #a2a2a2;
+	  font-family: Arial,Helvetica,sans-serif;
+	  font-size: 12px;
+	  font-weight: normal;
+	  text-shadow:0px 1px 0px #fff;
+	  padding-top: 6px;
+}
+/* headerbar end */
+/* --------------------------------------------------------------------- */
+
+/* Subheader start */
+/* --------------------------------------------------------------------- */
+.subheader { background: #f6f7f9; margin: 0px; padding: 0px; border-bottom: 1px solid #efefef; border-top: 1px solid #efefef;}
+.subheader .container { height: 100px; }
+
+.subheader2 { background: url(../images/textures/texture02.png) center top repeat; margin: 0px; padding:0px;}
+.subheader2 .container { background: url(../images/page-header-dots.html) no-repeat center top; height: 140px; }
+
+.subheader3 { background: url(../images/textures/texture07.png) center top repeat; margin: 0px; padding:0px;}
+.subheader3 .container { background: url(../images/page-header-dots.html) no-repeat center top; height: 140px; }
+
+.subheader4 { background: url(../images/textures/texture08.png) center top repeat; margin: 0px; padding: 0px;}
+.subheader4 .container { background: transparent; height: 140px; }
+
+.custom-page-header { border-bottom: none; margin: 90px 0 0px; padding: 0px;}
+.custom-page-header h1 { color: #ffffff; font-size: 24px; text-transform: uppercase; background: rgba(0, 0, 0, 0.6); display: inline; padding:3px 10px; moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+.custom-page-header h1 small { color: #fff; text-transform: none; padding-left: 10px;}
+/* --------------------------------------------------------------------- */
+
+/* ====================================================================================================================
+ * Header Styles end
+ * ====================================================================================================================*/
+
