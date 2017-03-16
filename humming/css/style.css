@@ -769,13 +769,13 @@ h2.post-header{
 }
 
 .navbar-default{
-	background-image:none;
-	background-color:#669ba0;
+	background-color:#669ba0 !important;
 	border:none;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
-	background-image:none;
+	
+	background-color:#669ba0 !important;
 	color:#ddd !important;
 }
 
